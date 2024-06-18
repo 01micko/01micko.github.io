@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: url('./Ruby-plain-1920x1080.png');
+ 	background-size: cover;
+}
+
+/*.bg {
+ 	height: 100%;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+}*/
+
+#container { 
+	position: relative;
+	width: 50%; height: 100%;
+	background: rgba(0.1, 1.0, 1.0, 0.7);
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	border-bottom-left-radius: 20px 20px;
+	border-bottom-right-radius: 20px 20px;
+	border-top-right-radius: 20px 20px;
+	border-top-left-radius: 20px 20px;
+}
+#banner {
+	position: relative;
+	text-align: center;;
+}
+
+img.middle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+p.centre {
+	display: block;
+	margin-left: 15%;
+	margin-right: auto;
+}
+ul.centre {
+	display: block;
+	margin-left: 20%;
+	margin-right: auto;
+}
+
+.thumbnail 
+{
+	float:left;
+	width:160px;
+	height:90px;
+	margin:10px;
+	padding-bottom: 10px;
+}
+.text_line
+{
+clear:both;
+margin-bottom:4px;
+}
+
+#images img {
+	width:80px;
+	padding:6px;
+}
+
+a:link { color: #458B00; /*chartreuse4 (green)*/ }
+a:visited { color: #BDA0CB; /*purple candy*/ }
+p { line-height: 150%; }
+ul { line-height: 175%; }
