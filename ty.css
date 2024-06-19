@@ -2,35 +2,36 @@
 /* CSS Document */
 body, html {
 	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
-	color: #fff;
-	background: url('./Ruby-plain-1920x1080.png');
- 	background-size: cover;
+	color: #ffffff;
+	background-image: url('./Ruby-plain-1920x1080.png');
 }
-
-/*.bg {
- 	height: 100%;
- 	background-position: center;
- 	background-repeat: no-repeat;
-}*/
 
 #container { 
 	position: relative;
-	width: 50%; height: 100%;
-	background: rgba(0.1, 1.0, 1.0, 0.7);
+	width: 50%;
+	background: rgba(1.0, 1.0, 1.0, 0.7);
 	margin: 0 auto;
+	margin-bottom: 3%;
 	padding-left: 15px;
 	padding-right: 15px;
 	overflow: hidden;
 	opacity:0.8;
 	filter:alpha(opacity=80); /* For IE8 and earlier */
-	border-bottom-left-radius: 20px 20px;
-	border-bottom-right-radius: 20px 20px;
-	border-top-right-radius: 20px 20px;
-	border-top-left-radius: 20px 20px;
+	border-radius: 20px;
 }
 #banner {
 	position: relative;
 	text-align: center;;
+}
+
+#footer {
+	left: 25%;
+	width: 50%;	
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-size: xx-small;
+	color: #dddddd;
 }
 
 img.middle {
@@ -72,3 +73,20 @@ a:link { color: #458B00; /*chartreuse4 (green)*/ }
 a:visited { color: #BDA0CB; /*purple candy*/ }
 p { line-height: 150%; }
 ul { line-height: 175%; }
+
+@media screen and (orientation:portrait) {
+#container { 
+	position: relative;
+	width: 90%;
+	background: rgb(0.1, 1.0, 1.0);
+	margin: 0 auto;
+	margin-bottom: 3%;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	border-radius: 20px;
+}
+
+}
