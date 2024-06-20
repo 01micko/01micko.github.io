@@ -3,7 +3,8 @@
 body, html {
 	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
 	color: #ffffff;
-	background-image: url('./Ruby-plain-1920x1080.png');
+	background: url('./Ruby-plain-1920x1080.png') no-repeat center fixed;
+	background-size: cover;
 }
 
 #container { 
