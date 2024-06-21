@@ -53,3 +53,23 @@ MD5sum: 03dcefb036e8b099a5c927bf03d46c26
 Description: debug symbols for labwc-menu-generator
 Build-Ids: 3a13470faa1ab0b1074d13bd1ff541c07c200370
 
+Package: mtpaint
+Version: 3.50.09-1
+Architecture: amd64
+Maintainer: Mick Mars <01micko@gmail.com>
+Installed-Size: 2048
+Depends: libc6 (>= 2.34), libcairo2 (>= 1.12.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.79.0), libgtk-3-0t64 (>= 3.21.6), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.2), libtiff6 (>= 4.0.3), libwebp7 (>= 1.4.0), zlib1g (>= 1:1.2.0), gtklp
+Multi-Arch: foreign
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/m/mtpaint/mtpaint_3.50.09-1_amd64.deb
+Size: 589672
+SHA256: fd95b1efec8e4d7d6ad87cdc507f377d7fbf7deb03721100ac35cafbc97c82ee
+SHA1: de55617fc28b24ad665af11e25a28c646102035e
+MD5sum: 0da63fb97d5c1566f92d08dff4fb5d11
+Description: Mark Tyler's Painting Program
+ mtPaint is a GTK+1/2/3 based painting program designed for creating
+ icons and pixel based artwork. It can edit indexed palette or 24 bit
+ RGB images and offers painting and palette manipulation tools.
+

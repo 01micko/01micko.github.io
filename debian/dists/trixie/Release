@@ -1,28 +1,28 @@
 Origin: bunsen testing
 Label: bunsen testing
 Codename: trixie
-Date: Fri, 21 Jun 2024 04:06:24 UTC
+Date: Fri, 21 Jun 2024 11:15:00 UTC
 Architectures: amd64
 Components: main
 Description: Apt repository for project bunsen testing
 MD5Sum:
- 89dc3a87f7e682d31c10da19b47cbbc1 2050 main/binary-amd64/Packages
- c349c79f36384cc8b39286ce0e44248b 980 main/binary-amd64/Packages.gz
+ 896d06afb768e5fb37c4ff73b65e0471 3101 main/binary-amd64/Packages
+ 51545b42944e854189c0e9641a21bc33 1415 main/binary-amd64/Packages.gz
  62e9e356d637f396c6283248aaa07937 136 main/binary-amd64/Release
- 7966cd699f1f2b595029882095d9ba4f 2497 main/source/Sources
- e4421f188313509906c864cb65eb2e03 1059 main/source/Sources.gz
+ 1d5b67b97c6dba1d1b03bef9728eac8c 3741 main/source/Sources
+ 020a9ddb5f4831275a9532a11e887bb9 1495 main/source/Sources.gz
  cf2331545e96a6a00c844e2b447d0921 137 main/source/Release
 SHA1:
- a50d54bac1d1b159e25f898e7518a3e66bab3497 2050 main/binary-amd64/Packages
- 78c2b1d1cc465e52f1b2a52643dc7b16fd489028 980 main/binary-amd64/Packages.gz
+ 382df7df1e9e5d40eb0bcca94033246cfe26cb9f 3101 main/binary-amd64/Packages
+ e2da7fb8666c787dcd02ce1b18cc5310d3a49a5c 1415 main/binary-amd64/Packages.gz
  7f64bc74159634088823a742ec3391fdf55f9139 136 main/binary-amd64/Release
- d0ac9d32475166bf732aea328aab4e075d3cb0ef 2497 main/source/Sources
- 31375c23f86a0f4308768700c8b6e7a175416e29 1059 main/source/Sources.gz
+ aa4fc617bdbbfb8340de4d48ca47afd87611b9ad 3741 main/source/Sources
+ d5ad2e58abb44a6a739e1a10d76d8e15c83af4c3 1495 main/source/Sources.gz
  a2490a17a08151191cf89ca1f3417f81bbd2c548 137 main/source/Release
 SHA256:
- a0d2f78d8c92ea1eba73b0b5af893ee2f42ab0e21930d46284d94efb2ae822a6 2050 main/binary-amd64/Packages
- b27a66bc482ea2bd6d3afd24e9382a08d9e2f13407760563bd744f1a487c29c0 980 main/binary-amd64/Packages.gz
+ 1c7c746d0b0bcefa1c9c6bf3e171114601be48651046fc4c7b3d8bdad6909f76 3101 main/binary-amd64/Packages
+ c7a65d1a2c263e6cf4aea56888ada4ba1af4617bb3d15c3ab6cb5a428b3b2938 1415 main/binary-amd64/Packages.gz
  9d8023512a8d7808146ff1322d4d41ee2ea577ef73fabb1b00173246d5033456 136 main/binary-amd64/Release
- 04345c764c6dec42bc10ee9e1cd8916ad8e9255206387bd755c54a48c69a2a29 2497 main/source/Sources
- 9bf6b024ef85991e2c267a2a7427bcc8ad84a24e9d93564eb3a97142af50f1a5 1059 main/source/Sources.gz
+ 4804e12175549c31ef72b57a91eea8771bff9f58447aa841692e6856a2782ff5 3741 main/source/Sources
+ 47372569559571f0dae8c7c32042411f98c48834546cc2fe470df0efa117d119 1495 main/source/Sources.gz
  b910239a14196e6e9c41f0becf3e9685b5c60b04d6c4c8f99dea7fe8c6e63097 137 main/source/Release
