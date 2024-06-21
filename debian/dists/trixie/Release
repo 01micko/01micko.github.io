@@ -1,0 +1,28 @@
+Origin: bunsen testing
+Label: bunsen testing
+Codename: trixie
+Date: Fri, 21 Jun 2024 04:06:24 UTC
+Architectures: amd64
+Components: main
+Description: Apt repository for project bunsen testing
+MD5Sum:
+ 89dc3a87f7e682d31c10da19b47cbbc1 2050 main/binary-amd64/Packages
+ c349c79f36384cc8b39286ce0e44248b 980 main/binary-amd64/Packages.gz
+ 62e9e356d637f396c6283248aaa07937 136 main/binary-amd64/Release
+ 7966cd699f1f2b595029882095d9ba4f 2497 main/source/Sources
+ e4421f188313509906c864cb65eb2e03 1059 main/source/Sources.gz
+ cf2331545e96a6a00c844e2b447d0921 137 main/source/Release
+SHA1:
+ a50d54bac1d1b159e25f898e7518a3e66bab3497 2050 main/binary-amd64/Packages
+ 78c2b1d1cc465e52f1b2a52643dc7b16fd489028 980 main/binary-amd64/Packages.gz
+ 7f64bc74159634088823a742ec3391fdf55f9139 136 main/binary-amd64/Release
+ d0ac9d32475166bf732aea328aab4e075d3cb0ef 2497 main/source/Sources
+ 31375c23f86a0f4308768700c8b6e7a175416e29 1059 main/source/Sources.gz
+ a2490a17a08151191cf89ca1f3417f81bbd2c548 137 main/source/Release
+SHA256:
+ a0d2f78d8c92ea1eba73b0b5af893ee2f42ab0e21930d46284d94efb2ae822a6 2050 main/binary-amd64/Packages
+ b27a66bc482ea2bd6d3afd24e9382a08d9e2f13407760563bd744f1a487c29c0 980 main/binary-amd64/Packages.gz
+ 9d8023512a8d7808146ff1322d4d41ee2ea577ef73fabb1b00173246d5033456 136 main/binary-amd64/Release
+ 04345c764c6dec42bc10ee9e1cd8916ad8e9255206387bd755c54a48c69a2a29 2497 main/source/Sources
+ 9bf6b024ef85991e2c267a2a7427bcc8ad84a24e9d93564eb3a97142af50f1a5 1059 main/source/Sources.gz
+ b910239a14196e6e9c41f0becf3e9685b5c60b04d6c4c8f99dea7fe8c6e63097 137 main/source/Release

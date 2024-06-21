@@ -1,0 +1,7 @@
+Origin: bunsen testing
+Label: bunsen testing
+Codename: trixie
+Architectures: source amd64
+Components: main
+Description: Apt repository for project bunsen testing
+SignWith: 87EEBEE1F91171B141BE747D8F8D48DAFAF52287

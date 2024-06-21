@@ -1,0 +1,5 @@
+Component: main
+Origin: bunsen testing
+Label: bunsen testing
+Architecture: amd64
+Description: Apt repository for project bunsen testing
