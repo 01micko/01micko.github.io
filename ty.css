@@ -75,7 +75,7 @@ img.middle {
 p.centre {
 	display: block;
 	margin-left: 15%;
-	margin-right: auto;
+	margin-right: 15%;
 }
 ul.centre {
 	display: block;
