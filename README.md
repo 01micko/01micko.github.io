@@ -24,8 +24,9 @@ If you don't know what the *debian way* is then learn!
 If you have packages to add then I need the full suite of files produced
 including debug symbol files (if produced) but **do not** try to insert
 them in the `debian/` directory. Just create any directory name you want
-and add them there. Leave them _unsigned_ as they need to be signed by
-my key for `apt` to work correctly. Offer up your PR.
+(the package name would be a good idea) and add them there. Leave them
+_unsigned_ as they need to be signed by my key for `apt` to work correctly.
+Offer up your PR.
 
 ## Bugs
 
