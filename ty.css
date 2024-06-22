@@ -145,4 +145,9 @@ ul { line-height: 175%; }
 	margin-right: 4%;
 }
 
+ul.centre {
+	display: block;
+	margin-left: 12%;
+	margin-right: auto;
+}
 }
