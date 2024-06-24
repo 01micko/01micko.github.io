@@ -16,10 +16,22 @@ website so html/css *only*.
 ### debian/
 
 This is a special repository that complements BunsenLabs (mostly) but
-can be used on any debian system.
+can be used on any debian/trixie system.
 
 I will accept packages compiled on `debian/trixie` the proper *debian way*.
 If you don't know what the *debian way* is then learn!
+
+#### versioning
+
+First of all, **make sure** that the same version of your package doesn't exist
+in the `debian/trixie` repo.
+
+Use _upstream's_ version with a _debian revision_ number.
+
+For our purposes, we will start at `-0'1` for the revision since these are
+`NMU` - see [debian policy - control -version](https://www.debian.org/doc/debian-policy/ch-controlfields.html#version)
+
+#### format for pull requests
 
 If you have packages to add then I need the full suite of files produced
 including debug symbol files (if produced) but **do not** try to insert
