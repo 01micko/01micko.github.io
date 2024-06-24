@@ -28,7 +28,7 @@ in the `debian/trixie` repo.
 
 Use _upstream's_ version with a _debian revision_ number.
 
-For our purposes, we will start at `-0'1` for the revision since these are
+For our purposes, we will start at `-0.1` for the debian revision since these are
 `NMU` - see [debian policy - control -version](https://www.debian.org/doc/debian-policy/ch-controlfields.html#version)
 
 #### format for pull requests
