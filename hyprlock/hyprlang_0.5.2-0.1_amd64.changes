@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Tue, 25 Jun 2024 08:12:42 -0400
+Source: hyprlang
+Binary: hyprlang hyprlang-dbgsym
+Architecture: source amd64
+Version: 0.5.2-0.1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: H. Sumen <hsumen@bunsenlabs.org>
+Changed-By: H. Sumen <hsumen@bunsenlabs.org>
+Description:
+ hyprlang   - auto-generated package by debmake
+Changes:
+ hyprlang (0.5.2-0.1) UNRELEASED; urgency=low
+ .
+   * Initial release. Build for Debian trixie.
+Checksums-Sha1:
+ 9eda5bdfa2e3fad20053abe83c065cf587620c03 869 hyprlang_0.5.2-0.1.dsc
+ 9b2906c2712077c7eaf351aed6060d24c8068166 56383 hyprlang_0.5.2.orig.tar.gz
+ 904bf3ceeac1a221013ff5dce1d60f0f8dce5ddd 5220 hyprlang_0.5.2-0.1.debian.tar.xz
+ daf2ee37e14a6263177b7d9ec235d9182f894bb3 965380 hyprlang-dbgsym_0.5.2-0.1_amd64.deb
+ c4906b562ef9f695be509291665f6b828e763289 6366 hyprlang_0.5.2-0.1_amd64.buildinfo
+ 588ecbdb6b448349f322dd1cb2c32baa6d082508 86744 hyprlang_0.5.2-0.1_amd64.deb
+Checksums-Sha256:
+ 46037bedaa73ee5704ea64310287d1f6f6264b0d1c01b1fb3c0c66d89e71ebc1 869 hyprlang_0.5.2-0.1.dsc
+ 66a1f87634c8ecdeb67d7ccc499a3fc1c19b064a098b103be042751e7430b5cc 56383 hyprlang_0.5.2.orig.tar.gz
+ 0aa8f693ee84d50d2c9fcdccc39003bc065cb449bba2e6f9a080ce3727162ba0 5220 hyprlang_0.5.2-0.1.debian.tar.xz
+ b875d3f5241f90fccb9d7923846b185f2e0659c50952fbf09ade27e68ce3d5bf 965380 hyprlang-dbgsym_0.5.2-0.1_amd64.deb
+ dbf811077f9d50df646f11b56d769e0ac6b1509642c720aa0add239253ae995b 6366 hyprlang_0.5.2-0.1_amd64.buildinfo
+ 337d38a9c17bd03c2c6aeebac46a873afab6a86305591526eed6e18d6479c421 86744 hyprlang_0.5.2-0.1_amd64.deb
+Files:
+ 0f68a7e6d147184ce06428502dd87023 869 devel optional hyprlang_0.5.2-0.1.dsc
+ e73e0ec151a0d2d3623baccb49566e0a 56383 devel optional hyprlang_0.5.2.orig.tar.gz
+ e2312e105dd223ac82f89037bc8e0b89 5220 devel optional hyprlang_0.5.2-0.1.debian.tar.xz
+ 650f168d3da847281ce5dfa3977f87f6 965380 debug optional hyprlang-dbgsym_0.5.2-0.1_amd64.deb
+ 7d0a3ede53cc677348e5985eaf405b9d 6366 devel optional hyprlang_0.5.2-0.1_amd64.buildinfo
+ 3480cb6196059fcc371bc030d514fd21 86744 devel optional hyprlang_0.5.2-0.1_amd64.deb
