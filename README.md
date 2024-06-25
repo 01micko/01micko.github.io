@@ -30,6 +30,8 @@ Use _upstream's_ version with a _debian revision_ number.
 
 For our purposes, we will start at `-0.1` for the debian revision since these are
 `NMU` - see [debian policy - control -version](https://www.debian.org/doc/debian-policy/ch-controlfields.html#version)
+If you update your package here progress to `-0.2` and so on. You are not likely
+to repackage too many times!
 
 #### format for pull requests
 
@@ -38,6 +40,16 @@ including debug symbol files (if produced) but **do not** try to insert
 them in the `debian/` directory. Just create any directory name you want
 (the package name would be a good idea) and add them there. Leave them
 _unsigned_ as they need to be signed by my key for `apt` to work correctly.
+
+Here is a simple command line to get I need into one directory:
+
+```sh
+# my-pkg is the name of the debian package you just built (no need for version) 
+user@domain:~/my-package-dir$ mypkg=my-package
+user@domain:~/my-package-dir$ ver=$(grep Version *.changes|cut -d " " -f2)
+user@domain:~/my-package-dir$ for f in $(ls | grep $ver | grep -v 'build') *orig*tar*; do cp $f ${mypkg}/;done
+```
+
 Offer up your PR.
 
 ## Bugs
