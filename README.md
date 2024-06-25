@@ -41,7 +41,7 @@ them in the `debian/` directory. Just create any directory name you want
 (the package name would be a good idea) and add them there. Leave them
 _unsigned_ as they need to be signed by my key for `apt` to work correctly.
 
-Here is a simple command line to get I need into one directory:
+Here is a simple command line to get what is needed in one directory for a valid PR:
 
 ```sh
 # my-pkg is the name of the debian package you just built (no need for version) 
