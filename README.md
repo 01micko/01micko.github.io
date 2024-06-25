@@ -38,15 +38,16 @@ to repackage too many times!
 If you have packages to add then I need the full suite of files produced
 including debug symbol files (if produced) but **do not** try to insert
 them in the `debian/` directory. Just create any directory name you want
-(the package name would be a good idea) and add them there. Leave them
-_unsigned_ as they need to be signed by my key for `apt` to work correctly.
+(the package name would be a good idea) and add them there. Packages can
+be left unsigned but if they are signed with your key it shouldn't matter.
 
 Here is a simple command line to get what is needed in one directory for a valid PR:
 
 ```sh
 # my-pkg is the name of the debian package you just built (no need for version) 
-user@domain:~/my-package-dir$ mypkg=my-package
-user@domain:~/my-package-dir$ ver=$(grep Version *.changes|cut -d " " -f2)
+user@domain:~/my-package-dir$ mypkg=my-package # no version, just the package _name_
+user@domain:~/my-package-dir$ mkdir $mypkg
+user@domain:~/my-package-dir$ ver=$(grep Version ${mypkg}*.changes|cut -d " " -f2)
 user@domain:~/my-package-dir$ for f in $(ls | grep $ver | grep -v 'build') *orig*tar*; do cp $f ${mypkg}/;done
 ```
 
