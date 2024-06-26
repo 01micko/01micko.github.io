@@ -1,0 +1,15 @@
+# hyprlock
+Hyprland's simple, yet multi-threaded and GPU-accelerated screen locking utility.
+
+## Features
+ - uses the secure ext-session-lock protocol
+ - full support for fractional-scale
+ - fully GPU accelerated
+ - multi-threaded resource acquisition for no hitches
+
+## Depends on
+hyprlang
+
+## Docs / Configuration
+[See the wiki](https://wiki.hyprland.org/Hypr-Ecosystem/hyprlock/)
+
