@@ -1,5 +1,3 @@
-#!/bin/sh
-sudo tee /etc/apt/sources.list.d/01micko.sources  <<"EOF"
 Types: deb
 URIs: https://01micko.github.io/debian/
 Suites: trixie
@@ -46,4 +44,4 @@ Signed-By:
  F8GAf63mLXv5jNu9RvCIVMOyqP+3
  =V06L
  -----END PGP PUBLIC KEY BLOCK-----
- EOF
+ 
