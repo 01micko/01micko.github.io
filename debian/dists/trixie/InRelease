@@ -4,42 +4,42 @@ Hash: SHA512
 Origin: bunsen testing
 Label: bunsen testing
 Codename: trixie
-Date: Wed, 26 Jun 2024 07:48:57 UTC
+Date: Thu, 27 Jun 2024 07:00:00 UTC
 Architectures: amd64
 Components: main
 Description: Apt repository for project bunsen testing
 MD5Sum:
- b18331f535266869650038f6cf00ad76 5926 main/binary-amd64/Packages
- e75ae5ab5bed47ab11bec75f60e6f2f8 2271 main/binary-amd64/Packages.gz
+ 7eb3d2f8e212a76d53a99bc188700ac1 7214 main/binary-amd64/Packages
+ d8998d3c1234203451f4c3e71bfca17c 2606 main/binary-amd64/Packages.gz
  62e9e356d637f396c6283248aaa07937 136 main/binary-amd64/Release
- 137bbf99b27ccdd3de297a2cd38d200b 6067 main/source/Sources
- 0359eeb28c15c02b623b405f2bbf716b 2247 main/source/Sources.gz
+ 881eb7263f9270bcc3cca45dc8bcf51b 7258 main/source/Sources
+ 3b9a211e76c25291172e46051d8582a9 2570 main/source/Sources.gz
  cf2331545e96a6a00c844e2b447d0921 137 main/source/Release
 SHA1:
- 1aae8bac4d6ee40af345d8283e0d3b607f4c33d6 5926 main/binary-amd64/Packages
- ab49ec713abe102f2b2e99082b73666354ab2f3f 2271 main/binary-amd64/Packages.gz
+ 32308ec7027e8a444f917ba2f8a8679fddd0f2ba 7214 main/binary-amd64/Packages
+ 884d00cb0b4db7382a9bfc202a5dd4fbea817707 2606 main/binary-amd64/Packages.gz
  7f64bc74159634088823a742ec3391fdf55f9139 136 main/binary-amd64/Release
- 474a5d0066bd7ad5f9202715d7d24951fcd936dd 6067 main/source/Sources
- e1569ae77b17add5959f7b9f29f64eef53c392f8 2247 main/source/Sources.gz
+ 3bdc5519b137f9a67d65a1bcb3afcbd1abb57439 7258 main/source/Sources
+ d05fba761f10956ecb5ddd573ef1f7a2e230dcbc 2570 main/source/Sources.gz
  a2490a17a08151191cf89ca1f3417f81bbd2c548 137 main/source/Release
 SHA256:
- 6c45e0af0185835c0cc481cb761854f1aafb9c1a381b2289c29adc55768ff043 5926 main/binary-amd64/Packages
- ccdff3d3f8eabb546bfcc3c12678a3e17228a77e68fd7b328fc64a31257ecddc 2271 main/binary-amd64/Packages.gz
+ 8dc62868376a70a3c03a35fc5a17049345eff6b35657b56fa1af88128f54fb8d 7214 main/binary-amd64/Packages
+ 1a824121588441e1e35e240099c21e38c2eec253327e083e3e6e6f2a6e68719e 2606 main/binary-amd64/Packages.gz
  9d8023512a8d7808146ff1322d4d41ee2ea577ef73fabb1b00173246d5033456 136 main/binary-amd64/Release
- 1799e09eccc80aaa8ea7644bd7d3d3bace25a1e73e0dc0ef6f92c7a918326a88 6067 main/source/Sources
- f783061dbe62c1fa610e650efcb1f6e7692c738d6cf6be080bad1482872cacd0 2247 main/source/Sources.gz
+ a69901050ce17816d6bc2a34c6c3c6c1aab530d34550ce08caf938b977a62ff7 7258 main/source/Sources
+ cbea51e10567856ba3abbd9990be3a4c0f8238712c68640980741ff4f5ab58dc 2570 main/source/Sources.gz
  b910239a14196e6e9c41f0becf3e9685b5c60b04d6c4c8f99dea7fe8c6e63097 137 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEQxPCw1KdcM1eZRAYvcD/Zm4+YDAFAmZ7x+oACgkQvcD/Zm4+
-YDDaUgv+KGg9x5gSRsVWGkPf4MFMNKBBa9Y/VIMZgipQr6Hql7Cq18YUtX6IcPVm
-dehAZXYLQC751/twglDxOejZpTjapcSzA8aCHzqUBjjMmHv9CcBV09r7AhHZ82Y6
-Br9EnME2QIDe8lbkDGhmCKGv5b1Kl9qiPZOvf35F9OW5k2w5y1nlFau+YQdkjUKO
-jY1u0PwXlcvQ1FIysiA5WDkPPWqJdBnFdOTuSd+xoJZkaMLWRapq//Z1NDLbXiYg
-2wdbtPjdmxmCUXT/9zv4uKk8nH4/nqK5Jh3klG79zsq3n39kW+YPhSSHIYM+Kf/p
-lAdTlH8x7b5laY80QXVnXBHTu23TV7hrBQOAEYL0UAH7llSC13h3nyNR7tHKldLl
-GbSv+m+bifIJgbpWeXNc6Qqka7PbzOJj61+RBlRV7idahMbKsa6q607pqPZUOELl
-EuP/zRwuO7ak/kB3Ywm/ce/RR49WeuEyhpDHAGWj5nQ5030yhIf56emUyZSx83iZ
-VppTWVGH
-=b4Dx
+iQGzBAEBCgAdFiEEQxPCw1KdcM1eZRAYvcD/Zm4+YDAFAmZ9DfAACgkQvcD/Zm4+
+YDCPUAv+Ph/E6+JuW/XCSsIkL1+IHu9ttYpr77qyjkp1WK7OzCXP2iXM03aCnorF
+5x8ONR5biVg2AAo3mC5dX1XbBZx+0jbLU1WQV2VJgZHhn3CXHlBSUd53fVi5NNFe
+x1j9l4C12t7e15R//ZP0kUcf+de6h+JiTFi4+Ug+TBXPEq+uglr82yUlri7HX3Vp
+wtFGLRQemH0v0nCdl30ZnBB+nKXrNOZxwn+86hO8X+Ghpsexh4VeS3LHoXiVkV9C
+7tHbgmyhyhOY1ygQbOKjqrf/hJKkQKLFOGp5olmQgOH5j1HZy1sRigObqj3IAmfA
+RocLUI/ss5WZxk0zCJfpWiqR2BC5anO3/ERf/CWjFJrMPWpEqIPg9OkS8ynuDLLz
+UDr+IzRJ8PG/Pd+n5qZwDPsPtyN6YQLWESkinnVopf4RUNnLEh/wTg+0LHgHSxdy
+i0r+86TYGrmDCThHhZELDE6PZZW4P1fsb/h9CZvzezMKa58aRTq6nBhCxCfNxC2o
+K2HIf1Aj
+=ow+5
 -----END PGP SIGNATURE-----

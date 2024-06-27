@@ -91,6 +91,41 @@ MD5sum: d8371aeb8d3ed3a09e6e4645978f8576
 Description: debug symbols for hyprlock
 Build-Ids: 9412daa8dbf0ee0812f0bb62f02a49b86b65e800
 
+Package: hyprpicker
+Version: 0.3.0-0.1
+Architecture: amd64
+Maintainer: H. Sumen <hsumen@bunsenlabs.org>
+Installed-Size: 84
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 0.5.0)
+Multi-Arch: foreign
+Homepage: https://github.com/hyprwm/hyprpicker
+Priority: optional
+Section: utils
+Filename: pool/main/h/hyprpicker/hyprpicker_0.3.0-0.1_amd64.deb
+Size: 25064
+SHA256: 024e1ef569c9c8fdb945a0f67a3576ba1efee903982b117e03baa4090ceec1cf
+SHA1: 91c84d39e0f990791fb0e39a2f159f2e4675ca2c
+MD5sum: e8cfe286835b8be3f2c31a42b711c531
+Description: A wlroots-compatible Wayland color picker.
+
+Package: hyprpicker-dbgsym
+Source: hyprpicker
+Version: 0.3.0-0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: H. Sumen <hsumen@bunsenlabs.org>
+Installed-Size: 239
+Depends: hyprpicker (= 0.3.0-0.1)
+Priority: optional
+Section: debug
+Filename: pool/main/h/hyprpicker/hyprpicker-dbgsym_0.3.0-0.1_amd64.deb
+Size: 220464
+SHA256: a0f465431f6b343f5f18210ddb366b3b0f94b424a2aa2ce0ef9746b84e467c5f
+SHA1: 301071f98063b5830c24939a3d9bc0df3641b03d
+MD5sum: 3a7514a36ad1904b8e803e07c1d1c6ac
+Description: debug symbols for hyprpicker
+Build-Ids: f223265e5a9363233c0b56be8bab8dbc227d064c
+
 Package: labwc-menu-generator
 Version: 0.1.0-1
 Architecture: amd64
