@@ -1,7 +1,7 @@
-Origin: bunsen testing
-Label: bunsen testing
-Codename: trixie
-Architectures: source amd64
+Origin: bunsenlabs testing
+Label: bunsenlabs testing
+Codename: carbon-trixie
+Architectures: source amd64 i386 arm64
 Components: main
-Description: Apt repository for project bunsen testing
+Description: Apt repository for project bunsenlabs testing
 SignWith: 87EEBEE1F91171B141BE747D8F8D48DAFAF52287

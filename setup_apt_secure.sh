@@ -2,7 +2,7 @@
 sudo tee /etc/apt/sources.list.d/01micko.sources  <<"EOF"
 Types: deb
 URIs: https://01micko.github.io/debian/
-Suites: trixie
+Suites: carbon-trixie
 Components: main
 Signed-By:
  -----BEGIN PGP PUBLIC KEY BLOCK-----

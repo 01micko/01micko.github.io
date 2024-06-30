@@ -27,3 +27,10 @@ You can then delete the script, it is no longer needed.
 wget https://01micko.github.io/01micko.sources
 sudo cp 01micko.sources /etc/apt/sources.list.d/
 ```
+
+### checksums (sha256)
+
+```
+90c0026493e45245d52d74b69a5dc2727fbf0989deee0cdab7df87e76cdf7550  setup_apt_secure.sh
+af59a8c35b948d1699e312922d894e351b838d421921309ece0895bc17d92f46  setup_apt_secure.sh.tar.gz
+```
