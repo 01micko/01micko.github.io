@@ -1,3 +1,3 @@
-shlibs:Depends=libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.79.0), libgtk-3-0t64 (>= 3.23.0), libgtk-layer-shell0 (>= 0.6.0), libjson-c5 (>= 0.15), libpango-1.0-0 (>= 1.14.0), libwayland-client0 (>= 1.20.0)
+shlibs:Depends=libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.79.0), libgtk-3-0t64 (>= 3.23.0), libgtk-layer-shell0 (>= 0.6.0), libjson-c5 (>= 0.15), libmpdclient2t64 (>= 2.1), libpango-1.0-0 (>= 1.14.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libwayland-client0 (>= 1.20.0), libxkbregistry0 (>= 1.0.0)
 misc:Depends=
 misc:Pre-Depends=
