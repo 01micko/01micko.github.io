@@ -1,0 +1,23 @@
+name: FreeBSD_CI
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: FreeBSD CI
+    timeout-minutes: 20
+    steps:
+    - uses: actions/checkout@v3
+    - name: Test in FreeBSD
+      id: test
+      uses: vmactions/freebsd-vm@v1
+      with:
+        usesh: true
+        prepare: |
+          pkg install -y curl meson ninja pkgconf gtk3 wayland-protocols gtk-layer-shell wayland json-c libmpdclient pulseaudio libxkbcommon alsa-lib
+
+        run: |
+          meson setup build --werror -Dpulse=enabled -Dmpd=enabled -Dnetwork=enabled -Dalsa=enabled -Dbluez=enabled -Dxkb=enabled -Didleinhibit=enabled -Dbsdctl=enabled
+          ninja -C build
+          DESTDIR=./install ninja -C build install

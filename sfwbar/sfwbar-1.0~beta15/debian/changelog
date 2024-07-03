@@ -1,0 +1,7 @@
+sfwbar (1.0~beta15-0.1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+  * Build beta15 for Debian trixie. 
+
+ -- H. Sumen <hsumen@bunsenlabs.org>  Wed, 03 Jul 2024 14:35:20 -0400

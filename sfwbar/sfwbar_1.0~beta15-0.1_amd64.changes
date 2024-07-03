@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Wed, 03 Jul 2024 14:35:20 -0400
+Source: sfwbar
+Binary: sfwbar sfwbar-dbgsym
+Architecture: source amd64
+Version: 1.0~beta15-0.1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: H. Sumen <hsumen@bunsenlabs.org>
+Changed-By: H. Sumen <hsumen@bunsenlabs.org>
+Description:
+ sfwbar     - SFWBar (S* Floating Window Bar) is a flexible taskbar application
+Changes:
+ sfwbar (1.0~beta15-0.1) UNRELEASED; urgency=low
+ .
+   * Initial release.
+ .
+   * Build beta15 for Debian trixie.
+Checksums-Sha1:
+ a5df78d7529e1cc77900a60dfaf3f5b95efddf3a 882 sfwbar_1.0~beta15-0.1.dsc
+ b1e85589bbb2bf723397a56c367b4a500f38fe36 405881 sfwbar_1.0~beta15.orig.tar.gz
+ 57ffcdf7732cce9917fe50d8acd80540c4f85ec7 15228 sfwbar_1.0~beta15-0.1.debian.tar.xz
+ 97c97abed7907dadb1a30b391ca4f312ab24a75a 449748 sfwbar-dbgsym_1.0~beta15-0.1_amd64.deb
+ 905faa87cb921b7af39c74fab00d5da4426d4dd6 5726 sfwbar_1.0~beta15-0.1_amd64.buildinfo
+ 4ae8c5a321305ca55864d22bb090a94260b59c7c 207356 sfwbar_1.0~beta15-0.1_amd64.deb
+Checksums-Sha256:
+ 01a5e0c9b5e956bdd3281215040cc5217aec3591fa39f89d3b3cd37d9752c873 882 sfwbar_1.0~beta15-0.1.dsc
+ e7b45b810659ddb4c1877c486e6c2e40830473ff2e562a9176b149eae1fa8b5f 405881 sfwbar_1.0~beta15.orig.tar.gz
+ fe69fef620eb37931d3b531dff092ce932f4cf412bbae736927a4941724e9cb2 15228 sfwbar_1.0~beta15-0.1.debian.tar.xz
+ 367a76229834fc615afde01a3879e60db6965fe93b699ec0c5a75b1b5a7d648e 449748 sfwbar-dbgsym_1.0~beta15-0.1_amd64.deb
+ e35d07dd6002f590241f9204ad193acc021043142cdbf057ad3bf8f7d5cd4984 5726 sfwbar_1.0~beta15-0.1_amd64.buildinfo
+ 4836f47a80013b480504b10acc10ed9df8d0bf65f9d1b69404345824a7a91168 207356 sfwbar_1.0~beta15-0.1_amd64.deb
+Files:
+ 886a5468b695e613cf04f2ee8eba25ae 882 x11 optional sfwbar_1.0~beta15-0.1.dsc
+ 6567a891f5365ddcffbbbca893152448 405881 x11 optional sfwbar_1.0~beta15.orig.tar.gz
+ 3b07adc4f8cb59fe89b22d322ef51c16 15228 x11 optional sfwbar_1.0~beta15-0.1.debian.tar.xz
+ 4561c66062e951eb2ff3445e98ee2dfc 449748 debug optional sfwbar-dbgsym_1.0~beta15-0.1_amd64.deb
+ b52e707b3ac9517ac1572043bcca5f8c 5726 x11 optional sfwbar_1.0~beta15-0.1_amd64.buildinfo
+ 4d4eb572b3ccc94dffc4e4e3a26f2502 207356 x11 optional sfwbar_1.0~beta15-0.1_amd64.deb
