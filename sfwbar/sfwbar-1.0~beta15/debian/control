@@ -1,0 +1,16 @@
+Source: sfwbar
+Section: x11
+Priority: optional
+Maintainer: H. Sumen <hsumen@bunsenlabs.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://github.com/LBCrion/sfwbar
+Rules-Requires-Root: no
+#Vcs-Git: https://salsa.debian.org/debian/sfwbar.git
+#Vcs-Browser: https://salsa.debian.org/debian/sfwbar
+
+Package: sfwbar
+Architecture: amd64
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: SFWBar (S* Floating Window Bar) is a flexible taskbar application for wayland compositors, designed with a stacking layout in mind.
