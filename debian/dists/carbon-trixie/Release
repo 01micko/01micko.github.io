@@ -1,13 +1,13 @@
 Origin: bunsenlabs testing
 Label: bunsenlabs testing
 Codename: carbon-trixie
-Date: Sun, 07 Jul 2024 09:54:59 UTC
+Date: Mon, 08 Jul 2024 08:35:14 UTC
 Architectures: amd64 i386 arm64
 Components: main
 Description: Apt repository for project bunsenlabs testing
 MD5Sum:
- 9e03c711b019fe2b781fe829997f6a93 9264 main/binary-amd64/Packages
- 6fd6f0f3afb900fd0fdff25211f47900 3368 main/binary-amd64/Packages.gz
+ dd0a41139ffd28c6914fe3d567ef5004 12624 main/binary-amd64/Packages
+ 8a8543ef11814ed706922c86222fd4e4 4489 main/binary-amd64/Packages.gz
  6ef1f54b24dd19bceb6367ea1f20a328 148 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
@@ -15,12 +15,12 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
  5268379c0232b25d9592840d9c71f39c 148 main/binary-arm64/Release
- 9bcc5b2d7e2affe2f6185f3d41ef4438 8486 main/source/Sources
- 4f150221116cf46ea8e063373cb312f7 2926 main/source/Sources.gz
+ 385a6cc4240154989f82061a0560fd20 11301 main/source/Sources
+ 388b297000163ce21c7e8b2cff2555ab 3861 main/source/Sources.gz
  f6466cca490ff55740efc93090c04729 149 main/source/Release
 SHA1:
- de28a8746e2338c0492cdcc9e7ec77d1704fd8d1 9264 main/binary-amd64/Packages
- 26ad68541a79ee99e060ce2088eeaf3d5c2a8a40 3368 main/binary-amd64/Packages.gz
+ e7b1196e1d5146586651857b26340267144a78f8 12624 main/binary-amd64/Packages
+ e0c0dc8b5c8feeffc8c09353ce3b56387481f02c 4489 main/binary-amd64/Packages.gz
  920e91cf3b392932c3f15d5f7c364f7c750480f7 148 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
@@ -28,12 +28,12 @@ SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
  8c3a47b602134c87355d048250adf8dfa9dc87af 148 main/binary-arm64/Release
- a906068499e955ef49c3dc932ecf933fd3c6d660 8486 main/source/Sources
- 0a6bd99063729996e5f2378d1413b9fbc6f6e810 2926 main/source/Sources.gz
+ 4236f894a5c0b78f17d0158ef5edd26974d37dc6 11301 main/source/Sources
+ ec4fa3fe2e0a8f465541434bf28a0444b26a76ce 3861 main/source/Sources.gz
  c691b84df325e28a25cffe3ded0539ddbea3bab3 149 main/source/Release
 SHA256:
- 4f8858cbdca7005df6414be8c75f31ce6338b8152e7e95a45e27d81ea7b133f4 9264 main/binary-amd64/Packages
- 795757024327ed12408706c9d7e2862fc2515b8ceebc167175f172219c7d624f 3368 main/binary-amd64/Packages.gz
+ b3d41b1085c02f8a64e8ed2b6f46be78c9ad34605747dca6aec3f80c0c88f988 12624 main/binary-amd64/Packages
+ 16a74aab1697b3d5f6e2836990c5b1ba4f3bfc85c437c944fb86e0dbb50659ed 4489 main/binary-amd64/Packages.gz
  acc089a14b58eb0b932c4f982ebda8c54a25e01da392a292298a6c301bbafca5 148 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
@@ -41,6 +41,6 @@ SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
  fee6bab02223d502dd204ec38edcee2d1aa24d49e6fda7048e9c958516386c2e 148 main/binary-arm64/Release
- c23d42fa9c8f5b5227616a06aae157e2b86349808b686e7e376cdc859c82c513 8486 main/source/Sources
- 010bea452ba682328fe27d498cda091e559d652a7e5f4c52b6f49e4d00e1ea46 2926 main/source/Sources.gz
+ c9db3469321cbf2b3c1b429c42ec4668007dc8eb27dd6520f7da61305a161f30 11301 main/source/Sources
+ 556c2053c3b7153400cc941455eaa00015b47d509d8849e265f2e8fc6e742db6 3861 main/source/Sources.gz
  6a82f397ae52783a2661ac51e91884e9699e78f11105601bf02b6eb898433b47 149 main/source/Release
