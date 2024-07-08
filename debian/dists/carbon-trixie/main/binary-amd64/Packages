@@ -18,6 +18,51 @@ Description: This is a GTK+3 - based picture browser and background setter
  The user interface is being developed with multi-headed setups in mind.
  Azote also includes several colour management tools.
 
+Package: dillo
+Version: 3.1.1-0.1~bl2
+Architecture: amd64
+Maintainer: Axel Beckert <abe@debian.org>
+Installed-Size: 2017
+Depends: wget, libc6 (>= 2.38), libfltk1.3t64 (>= 1.3.4), libjpeg62-turbo (>= 1.3.1), libmbedcrypto7t64 (>= 2.28.0), libmbedtls14t64 (>= 2.28.0), libmbedx509-1t64 (>= 2.28.0), libpng16-16t64 (>= 1.6.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4)
+Recommends: perl, perl:any
+Provides: www-browser
+Homepage: https://github.com/dillo-browser/dillo
+Priority: optional
+Section: web
+Filename: pool/main/d/dillo/dillo_3.1.1-0.1~bl2_amd64.deb
+Size: 609136
+SHA256: 168648397971e043b2a25f325148ba744557a725cda64c792537e094d3b92b57
+SHA1: 261dda46a99027b25cdc46db8d5db7af83a22cb3
+MD5sum: e9737cb170113a95f959e5c9d3f38433
+Description: Small and fast web browser
+ Dillo 3 is a graphical multi-platform web browser known for its speed
+ and small footprint. It is based on version 1.3 of the Fast and Light
+ Toolkit (FLTK) in version 1.3
+ .
+ It aims to be small in resources, stable, developer-friendly, usable,
+ very fast, and extensible.
+ .
+ To run the included dillo-install-hyphenation script the recommended
+ perl packages need to be installed.
+
+Package: dillo-dbgsym
+Source: dillo
+Version: 3.1.1-0.1~bl2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Axel Beckert <abe@debian.org>
+Installed-Size: 2516
+Depends: dillo (= 3.1.1-0.1~bl2)
+Priority: optional
+Section: debug
+Filename: pool/main/d/dillo/dillo-dbgsym_3.1.1-0.1~bl2_amd64.deb
+Size: 2212624
+SHA256: 62b783c7ae7b8c130affc6cc8ca6924ceebe5d6ba624bfbc77c6ebbff5c98d47
+SHA1: 99f637287f83337daa15611f20abe821239cf091
+MD5sum: f55ab3a41ddd9d3477a836afd7341125
+Description: debug symbols for dillo
+Build-Ids: 01eff4bfe6bb79d5cf10bfb3b697b103040ba576 03e7c92723986c160fecc94e3ac378d5a59fcd3d 2cabcc54dca305bb4f0afbf99356d6c49937c13c 2fac217e1f99799b6d17f2e19c88163a82c27c9a 6b0b56b50dfec264ff50a07b9f21cbc8fba69fdf 8ec35d2cabdf45497a7debac1ea57a51de194de0 b2f89adac744a5782169a8c86cd2dcd9e302c372 c561912103f60e8c3152d39dd5f1f6be1def7c1e ec1512f6699478e015625ac814e2e745ff3fd75b edf2b128f934782c9388246b3cae95203ad7f469 f0c575b32c79bd88884b281bf31a662ab9f31edf
+
 Package: hyprlang
 Version: 0.5.2-0.1
 Architecture: amd64
