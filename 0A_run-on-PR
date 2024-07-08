@@ -1,0 +1,47 @@
+#!/bin/sh
+
+# wrapper for 'tree' to list current state of the repo
+
+cat >tree.html << EOF
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="icon" 
+      type="image/png" 
+      href="https://01micko.github.io/fire-small.png">
+
+<title>The Cooker - Repo</title>
+<link href="ty.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="links.html">Links</a>
+  <a href="about.html">About</a>
+</div>
+<div id="banner"><h1>Current state of the repository</h1></div>
+  <p class="centre">As at $(date)</p>
+    <pre>
+  <code>
+EOF
+
+export LANG=C.UTF-8
+(cd debian/pool
+printf "%s\n" "$(tree)"
+) >> tree.html
+
+cat >>tree.html << EOF
+  </code>
+ </pre>
+ <p  class="centre">Have a great day!</p>
+</div>
+<div id="footer">&copy; Copyright 2024 Mick Amadio.
+    Code here is licensed GPL-2.0 <a href="./gpl-2.0.txt"><img src="gpl2.png"/></a>. Content and artwork here are licensed CCO <a href="./LICENSE"><img src="cc0.png"/></a>
+</div>
+</body>
+</html>
+EOF
