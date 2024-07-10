@@ -18,6 +18,36 @@ Description: This is a GTK+3 - based picture browser and background setter
  The user interface is being developed with multi-headed setups in mind.
  Azote also includes several colour management tools.
 
+Package: bunsen-configs-base
+Version: 13.0.2-0.1
+Architecture: all
+Maintainer: John Crawley <john@bunsenlabs.org>
+Installed-Size: 744
+Recommends: bunsen-images-base, bunsen-numix-icon-theme, bunsen-themes-base, bunsen-thunar, dmz-cursor-theme, jgmenu, lightdm, lightdm-gtk-greeter, lightdm-gtk-greeter-settings, nitrogen, openbox, polkitd-pkla, python3-xdg, scrot, sensible-utils, tint2, xbindkeys, xcape, yad
+Suggests: fonts-liberation, fonts-inconsolata, qt5-gtk-platformtheme, qt5-style-plugins, libqt5svg5, librsvg2-common, xfce4-clipman, xfce4-screenshooter
+Conflicts: bunsen-configs, bunsen-configs-lite
+Breaks: bunsen-conky (<< 11.1-1)
+Replaces: bunsen-configs, bunsen-configs-lite, bunsen-conky (<< 11.1-1)
+Multi-Arch: foreign
+Homepage: https://github.com/BunsenLabs/bunsen-configs
+Priority: optional
+Section: misc
+Filename: pool/main/b/bunsen-configs-base/bunsen-configs-base_13.0.2-0.1_all.deb
+Size: 169664
+SHA256: 9c4c2a7a68daff83ebf94a5568e5b5a9c436a20f2c455e53f70556560e4578fd
+SHA1: 7b800f8940f21d112d63584d18b88d02a8ffddd1
+MD5sum: 14d5915f945834c847a88b6684720176
+Description: config files for minimal BunsenLabs Linux
+ Various configuration files for BunsenLabs Linux.
+ Contains user config files to be copied into a new user's home directory,
+ scripts and desktop files to set up the bl-alternatives system,
+ and some other system configuration files.
+ .
+ This package provides some modified files for a minimal system.
+ Unused menu items are removed and the autostart script is adjusted.
+ Memory usage and disk space should be slightly lower
+ than with the standard configs package.
+
 Package: dillo
 Version: 3.1.1-0.1~bl2
 Architecture: amd64
