@@ -19,7 +19,7 @@ Description: This is a GTK+3 - based picture browser and background setter
  Azote also includes several colour management tools.
 
 Package: bunsen-configs-base
-Version: 13.0.2-0.2
+Version: 13.0.2-0.3
 Architecture: all
 Maintainer: John Crawley <john@bunsenlabs.org>
 Installed-Size: 752
@@ -32,11 +32,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/BunsenLabs/bunsen-configs
 Priority: optional
 Section: misc
-Filename: pool/main/b/bunsen-configs-base/bunsen-configs-base_13.0.2-0.2_all.deb
-Size: 170236
-SHA256: 041cc9e0bd3bb972606b38fc97d22662cf86be3281b261a664fbe6a785c2fee5
-SHA1: 7fe5d1a9c98854023094b61af219ebe4279fe92d
-MD5sum: 2ac2b2c48cadd0ca26d9006c5915625e
+Filename: pool/main/b/bunsen-configs-base/bunsen-configs-base_13.0.2-0.3_all.deb
+Size: 170380
+SHA256: adb884f4689debb67ad17c687a008315e2c3a48e296f7d60e998da389b0b96e4
+SHA1: bc68d15c82b50f4b38a9e99fd925468f5f6c9401
+MD5sum: 4686783cd71ed0c72063afe9308fa84a
 Description: config files for minimal BunsenLabs Linux
  Various configuration files for BunsenLabs Linux.
  Contains user config files to be copied into a new user's home directory,
