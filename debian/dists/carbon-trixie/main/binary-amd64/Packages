@@ -19,11 +19,11 @@ Description: This is a GTK+3 - based picture browser and background setter
  Azote also includes several colour management tools.
 
 Package: bunsen-configs-base
-Version: 13.0.2-0.1
+Version: 13.0.2-0.2
 Architecture: all
 Maintainer: John Crawley <john@bunsenlabs.org>
-Installed-Size: 744
-Recommends: bunsen-images-base, bunsen-numix-icon-theme, bunsen-themes-base, bunsen-thunar, dmz-cursor-theme, jgmenu, lightdm, lightdm-gtk-greeter, lightdm-gtk-greeter-settings, nitrogen, openbox, polkitd-pkla, python3-xdg, scrot, sensible-utils, tint2, xbindkeys, xcape, yad
+Installed-Size: 752
+Recommends: bunsen-images-base, bunsen-numix-icon-theme, bunsen-themes-base, bunsen-thunar, dmz-cursor-theme, jgmenu, lightdm, lightdm-gtk-greeter, lightdm-gtk-greeter-settings, nitrogen, openbox, polkitd-pkla, python3, python3-xdg, scrot, sensible-utils, tint2, xbindkeys, xcape, yad
 Suggests: fonts-liberation, fonts-inconsolata, qt5-gtk-platformtheme, qt5-style-plugins, libqt5svg5, librsvg2-common, xfce4-clipman, xfce4-screenshooter
 Conflicts: bunsen-configs, bunsen-configs-lite
 Breaks: bunsen-conky (<< 11.1-1)
@@ -32,11 +32,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/BunsenLabs/bunsen-configs
 Priority: optional
 Section: misc
-Filename: pool/main/b/bunsen-configs-base/bunsen-configs-base_13.0.2-0.1_all.deb
-Size: 169664
-SHA256: 9c4c2a7a68daff83ebf94a5568e5b5a9c436a20f2c455e53f70556560e4578fd
-SHA1: 7b800f8940f21d112d63584d18b88d02a8ffddd1
-MD5sum: 14d5915f945834c847a88b6684720176
+Filename: pool/main/b/bunsen-configs-base/bunsen-configs-base_13.0.2-0.2_all.deb
+Size: 170236
+SHA256: 041cc9e0bd3bb972606b38fc97d22662cf86be3281b261a664fbe6a785c2fee5
+SHA1: 7fe5d1a9c98854023094b61af219ebe4279fe92d
+MD5sum: 2ac2b2c48cadd0ca26d9006c5915625e
 Description: config files for minimal BunsenLabs Linux
  Various configuration files for BunsenLabs Linux.
  Contains user config files to be copied into a new user's home directory,
