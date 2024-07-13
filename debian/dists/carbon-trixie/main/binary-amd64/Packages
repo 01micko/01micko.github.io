@@ -48,6 +48,56 @@ Description: config files for minimal BunsenLabs Linux
  Memory usage and disk space should be slightly lower
  than with the standard configs package.
 
+Package: conky-wl
+Source: conky
+Version: 1.20.2-0.1
+Architecture: amd64
+Maintainer: Mick Mars <01micko@gmail.com>
+Installed-Size: 1438
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcurl3t64-gnutls (>= 7.16.2), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.12.0), libical3t64 (>= 3.0.0), libiw30t64 (>= 30~pre1), liblua5.3-0, libncurses6 (>= 6), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.22.0), libpangoft2-1.0-0 (>= 1.14.0), libstdc++6 (>= 13.1), libtinfo6 (>= 6), libwayland-client0 (>= 1.20.0)
+Conflicts: conky-all, conky-cli, conky-std
+Replaces: conky-all, conky-cli, conky-std
+Provides: conky
+Homepage: https://github.com/brndnmtthws/conky
+Priority: optional
+Section: utils
+Filename: pool/main/c/conky/conky-wl_1.20.2-0.1_amd64.deb
+Size: 629428
+SHA256: 06f0ca967222767be598cc3808261c87f22631ef77ebc4637d7b6e319af121ae
+SHA1: 468db7ad2d6646e04ba66eec2c30bb1d95719d1a
+MD5sum: 4612b6c1869e0f5b4bf769cda95b5890
+Description: highly configurable system monitor (all features enabled)
+ Conky is a system monitor that can display just about anything,
+ either on your root desktop or in its own window.
+ Conky has many built-in objects, as well as the ability to execute
+ external programs or scripts (either external or through built-in
+ Lua support).
+ .
+ This is a wayland conky with limited compile options enabled:
+ .
+ Wayland, math, hddtemp, portmon, RSS, wireless, IBM, apcupsd,
+ I/O stats, argb,  iCal, iconv, IRC, and systemd journal.
+
+Package: conky-wl-dbgsym
+Source: conky
+Version: 1.20.2-0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Mick Mars <01micko@gmail.com>
+Installed-Size: 3008
+Depends: conky-wl (= 1.20.2-0.1)
+Breaks: conky-wl-dbg (<< 1.11.6-1~)
+Replaces: conky-wl-dbg (<< 1.11.6-1~)
+Priority: optional
+Section: debug
+Filename: pool/main/c/conky/conky-wl-dbgsym_1.20.2-0.1_amd64.deb
+Size: 2895628
+SHA256: 55969d61b49867d1efd06fe9403055adc52f207a60ace7f7ff12e9e23338a569
+SHA1: caf4ae831b9f9b9dc3b743666b3b90e776a34f11
+MD5sum: 93aa7eab3c4a4b41fc27abed837e0988
+Description: debug symbols for conky-wl
+Build-Ids: 78ad545fa176e7ac75dc772a8cf6016c9dcfdff2
+
 Package: dillo
 Version: 3.1.1-0.1~bl2
 Architecture: amd64
