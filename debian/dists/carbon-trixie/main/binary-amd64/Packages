@@ -18,6 +18,37 @@ Description: This is a GTK+3 - based picture browser and background setter
  The user interface is being developed with multi-headed setups in mind.
  Azote also includes several colour management tools.
 
+Package: bunsen-configs-wbase
+Source: bunsen-configs
+Version: 13.0-1.1
+Architecture: all
+Maintainer: John Crawley <john@bunsenlabs.org>
+Installed-Size: 601
+Depends: python3
+Recommends: bunsen-images-base, bunsen-numix-icon-theme, bunsen-themes-base, bunsen-thunar, dmz-cursor-theme, greetd, labwc-menu-generator, nwg-hello, python3-xdg, sensible-utils, sfwbar, xbindkeys, xcape, yad
+Suggests: fonts-liberation, fonts-inconsolata, qt5-gtk-platformtheme, qt5-style-plugins, libqt5svg5, librsvg2-common
+Conflicts: bunsen-configs, bunsen-configs-base, bunsen-configs-lite
+Breaks: bunsen-conky (<< 11.1-1)
+Replaces: bunsen-configs, bunsen-configs-base, bunsen-configs-lite, bunsen-conky (<< 11.1-1)
+Homepage: https://github.com/BunsenLabs/bunsen-configs
+Priority: optional
+Section: misc
+Filename: pool/main/b/bunsen-configs/bunsen-configs-wbase_13.0-1.1_all.deb
+Size: 130572
+SHA256: dcb9bfb5f5702d5317555cdf82055387d5f73c828511e5fb0797d8a9975327a2
+SHA1: 8c27735985c52f9a5add4b2fa0bd8c94fe40b1a0
+MD5sum: 818e63ebe04219da3feff12d728d1dec
+Description: config files for minimal wayland BunsenLabs Linux
+ Various configuration files for BunsenLabs Linux with wayland.
+ Contains user config files to be copied into a new user's home directory,
+ scripts and desktop files to set up the bl-alternatives system,
+ and some other system configuration files.
+ .
+ This package provides some modified files for a minimal system.
+ Unused menu items are removed and the autostart script is adjusted.
+ Memory usage and disk space should be slightly lower
+ than with the standard configs package.
+
 Package: conky-wl
 Source: conky
 Version: 1.20.2-0.1
