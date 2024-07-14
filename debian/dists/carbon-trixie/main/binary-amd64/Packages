@@ -20,10 +20,10 @@ Description: This is a GTK+3 - based picture browser and background setter
 
 Package: bunsen-configs-wbase
 Source: bunsen-configs
-Version: 13.0-1.1
+Version: 13.0-1.2
 Architecture: all
 Maintainer: John Crawley <john@bunsenlabs.org>
-Installed-Size: 601
+Installed-Size: 720
 Depends: python3
 Recommends: bunsen-images-base, bunsen-numix-icon-theme, bunsen-themes-base, bunsen-thunar, dmz-cursor-theme, greetd, labwc-menu-generator, nwg-hello, python3-xdg, sensible-utils, sfwbar, xbindkeys, xcape, yad
 Suggests: fonts-liberation, fonts-inconsolata, qt5-gtk-platformtheme, qt5-style-plugins, libqt5svg5, librsvg2-common
@@ -33,11 +33,11 @@ Replaces: bunsen-configs, bunsen-configs-base, bunsen-configs-lite, bunsen-conky
 Homepage: https://github.com/BunsenLabs/bunsen-configs
 Priority: optional
 Section: misc
-Filename: pool/main/b/bunsen-configs/bunsen-configs-wbase_13.0-1.1_all.deb
-Size: 130572
-SHA256: dcb9bfb5f5702d5317555cdf82055387d5f73c828511e5fb0797d8a9975327a2
-SHA1: 8c27735985c52f9a5add4b2fa0bd8c94fe40b1a0
-MD5sum: 818e63ebe04219da3feff12d728d1dec
+Filename: pool/main/b/bunsen-configs/bunsen-configs-wbase_13.0-1.2_all.deb
+Size: 144496
+SHA256: a1771cfa9dfe7e88635ede6ed70469971acfffee25b548c5295d6a4b9b0d8751
+SHA1: 5dc018c628ac636b71bc617346e5bbcf5ec775ee
+MD5sum: 8c8e7a4747c30831f8601dbbd8d7b5f8
 Description: config files for minimal wayland BunsenLabs Linux
  Various configuration files for BunsenLabs Linux with wayland.
  Contains user config files to be copied into a new user's home directory,
