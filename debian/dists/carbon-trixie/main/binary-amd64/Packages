@@ -144,6 +144,43 @@ MD5sum: f55ab3a41ddd9d3477a836afd7341125
 Description: debug symbols for dillo
 Build-Ids: 01eff4bfe6bb79d5cf10bfb3b697b103040ba576 03e7c92723986c160fecc94e3ac378d5a59fcd3d 2cabcc54dca305bb4f0afbf99356d6c49937c13c 2fac217e1f99799b6d17f2e19c88163a82c27c9a 6b0b56b50dfec264ff50a07b9f21cbc8fba69fdf 8ec35d2cabdf45497a7debac1ea57a51de194de0 b2f89adac744a5782169a8c86cd2dcd9e302c372 c561912103f60e8c3152d39dd5f1f6be1def7c1e ec1512f6699478e015625ac814e2e745ff3fd75b edf2b128f934782c9388246b3cae95203ad7f469 f0c575b32c79bd88884b281bf31a662ab9f31edf
 
+Package: hyprpicker
+Version: 0.3.0-0.2
+Architecture: amd64
+Maintainer: H. Sumen <hsumen@bunsenlabs.org>
+Installed-Size: 85
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 0.5.0)
+Multi-Arch: foreign
+Homepage: https://github.com/hyprwm/hyprpicker
+Priority: optional
+Section: x11
+Filename: pool/main/h/hyprpicker/hyprpicker_0.3.0-0.2_amd64.deb
+Size: 25640
+SHA256: 79fd33dc70c8f3e445bf3db9f89413dad7669829f64256e3bb0cc40f37984449
+SHA1: 3b337e6cf50e50fdb0c7d84da9a15e417dd278b2
+MD5sum: f22a7a405b98da8cb0e5383ee60af784
+Description: wlroots-compatible Wayland color picker.
+ This has a magnifier built in to pinpoint exactly the color you want
+ to choose on the screen.
+
+Package: hyprpicker-dbgsym
+Source: hyprpicker
+Version: 0.3.0-0.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: H. Sumen <hsumen@bunsenlabs.org>
+Installed-Size: 245
+Depends: hyprpicker (= 0.3.0-0.2)
+Priority: optional
+Section: debug
+Filename: pool/main/h/hyprpicker/hyprpicker-dbgsym_0.3.0-0.2_amd64.deb
+Size: 226108
+SHA256: c2880a343c07ca0e3c3db7c50b8966c5af38b6ad8fe6be451c3e8b8b6d7834f2
+SHA1: 4663803e59772dcdaff016800de92a7f8e3bcc93
+MD5sum: 19419cbcd7c778d7f1bc094cb9bd4b21
+Description: debug symbols for hyprpicker
+Build-Ids: 7c09697b10a707f4c4115813d47f0eeada0162bd
+
 Package: labwc-menu-generator
 Version: 0.1.0-0.1
 Architecture: amd64
