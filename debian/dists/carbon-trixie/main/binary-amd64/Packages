@@ -199,41 +199,41 @@ Description: debug symbols for labwc-menu-generator
 Build-Ids: 0373e6ea1a66c915eb0cb6cca710e9d5998f9b94
 
 Package: labwc-tweaks-gtk
-Version: 0.0.0-2
+Version: 0.0.0-3
 Architecture: amd64
 Maintainer: Mick Amadio <01micko@gmail.com>
 Installed-Size: 54
-Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.28.0), libgtk-3-0t64 (>= 3.16.2), libpangocairo-1.0-0 (>= 1.22.0), libxml2 (>= 2.7.4)
+Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.28.0), libgtk-3-0t64 (>= 3.16.2), libpangocairo-1.0-0 (>= 1.22.0), libxml2 (>= 2.7.4), gsettings-desktop-schemas
 Multi-Arch: foreign
 Homepage: https://github.com/labwc/labwc-tweaks-gtk
 Priority: optional
 Section: misc
-Filename: pool/main/l/labwc-tweaks-gtk/labwc-tweaks-gtk_0.0.0-2_amd64.deb
-Size: 13016
-SHA256: aa144d78b93f30eebbe18eccf819e7eb81f6a2cac14a6c6899dc837be2fa287b
-SHA1: 9e70710250bdb6c3229cb9fa9c9f1aad6866fa7a
-MD5sum: ebba1536d7d1bd6483b40830c45f38d2
+Filename: pool/main/l/labwc-tweaks-gtk/labwc-tweaks-gtk_0.0.0-3_amd64.deb
+Size: 13060
+SHA256: 311d2903bfd1f8ae96a8313f2cfeb122387a31c3da80eddadd97e030407c53d7
+SHA1: 29e7b611b166c0d2fc20479f07a9da490a2aed2d
+MD5sum: e489134932ccb6459dad1c1966efdccf
 Description: configuration gui application for labwc
  It was merely written to help change themes for the
  purposes for testing labwc during development
 
 Package: labwc-tweaks-gtk-dbgsym
 Source: labwc-tweaks-gtk
-Version: 0.0.0-2
+Version: 0.0.0-3
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Mick Amadio <01micko@gmail.com>
 Installed-Size: 53
-Depends: labwc-tweaks-gtk (= 0.0.0-2)
+Depends: labwc-tweaks-gtk (= 0.0.0-3)
 Priority: optional
 Section: debug
-Filename: pool/main/l/labwc-tweaks-gtk/labwc-tweaks-gtk-dbgsym_0.0.0-2_amd64.deb
-Size: 35440
-SHA256: 431556a604175ab030a607f5ee90db84ebd4adc551dcfe88fc732fde4fc850fa
-SHA1: fa089d8b3a5ca7164962a6852a1d72c81366caa4
-MD5sum: e6a6ad57074deee498158b3438b148c8
+Filename: pool/main/l/labwc-tweaks-gtk/labwc-tweaks-gtk-dbgsym_0.0.0-3_amd64.deb
+Size: 35428
+SHA256: cc8d0cf7fe30d799e84296795992b73b73475cd2a0d737f1b58f4ead98c1684c
+SHA1: e6b1b8b3a76a4ba77d9f70d766911133981af4fd
+MD5sum: bade2d404a8198d97bda3bfbf17657ef
 Description: debug symbols for labwc-tweaks-gtk
-Build-Ids: 8ff4a24987d5580de8464382717d0682b7c6755f
+Build-Ids: d20a0ff96c6d754043e21ef4e1466d15479b4546
 
 Package: mtpaint
 Version: 3.50.09-0.1
