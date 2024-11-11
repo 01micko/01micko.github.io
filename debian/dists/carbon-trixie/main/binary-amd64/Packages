@@ -199,7 +199,7 @@ Description: debug symbols for labwc-menu-generator
 Build-Ids: 0373e6ea1a66c915eb0cb6cca710e9d5998f9b94
 
 Package: labwc-tweaks-gtk
-Version: 0.0.0-3
+Version: 0.0.0-4
 Architecture: amd64
 Maintainer: Mick Amadio <01micko@gmail.com>
 Installed-Size: 54
@@ -208,32 +208,32 @@ Multi-Arch: foreign
 Homepage: https://github.com/labwc/labwc-tweaks-gtk
 Priority: optional
 Section: misc
-Filename: pool/main/l/labwc-tweaks-gtk/labwc-tweaks-gtk_0.0.0-3_amd64.deb
-Size: 13060
-SHA256: 311d2903bfd1f8ae96a8313f2cfeb122387a31c3da80eddadd97e030407c53d7
-SHA1: 29e7b611b166c0d2fc20479f07a9da490a2aed2d
-MD5sum: e489134932ccb6459dad1c1966efdccf
+Filename: pool/main/l/labwc-tweaks-gtk/labwc-tweaks-gtk_0.0.0-4_amd64.deb
+Size: 13068
+SHA256: 851ea34569f401e3137156275a10bc8fb6750690ad970c6b7d0930e28e30e36d
+SHA1: e1a10ec45b005838d8f954e3b256e11a08cb756d
+MD5sum: 1b7d6c02d52752ff08ce34b58669982a
 Description: configuration gui application for labwc
  It was merely written to help change themes for the
  purposes for testing labwc during development
 
 Package: labwc-tweaks-gtk-dbgsym
 Source: labwc-tweaks-gtk
-Version: 0.0.0-3
+Version: 0.0.0-4
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Mick Amadio <01micko@gmail.com>
-Installed-Size: 53
-Depends: labwc-tweaks-gtk (= 0.0.0-3)
+Installed-Size: 52
+Depends: labwc-tweaks-gtk (= 0.0.0-4)
 Priority: optional
 Section: debug
-Filename: pool/main/l/labwc-tweaks-gtk/labwc-tweaks-gtk-dbgsym_0.0.0-3_amd64.deb
-Size: 35428
-SHA256: cc8d0cf7fe30d799e84296795992b73b73475cd2a0d737f1b58f4ead98c1684c
-SHA1: e6b1b8b3a76a4ba77d9f70d766911133981af4fd
-MD5sum: bade2d404a8198d97bda3bfbf17657ef
+Filename: pool/main/l/labwc-tweaks-gtk/labwc-tweaks-gtk-dbgsym_0.0.0-4_amd64.deb
+Size: 35380
+SHA256: b2dfc53922c6dfa766eb089751afaea8288de2ca209c442e5d4aaaa12acae0c5
+SHA1: cf5086293f5accd738094b5e81e27cc5fbc9bce6
+MD5sum: e9ed2dbb5ab282d0035e70505c16ca83
 Description: debug symbols for labwc-tweaks-gtk
-Build-Ids: d20a0ff96c6d754043e21ef4e1466d15479b4546
+Build-Ids: 440b92cf2c5a35f17c7f60a645522dc684119df6
 
 Package: mtpaint
 Version: 3.50.09-0.1
