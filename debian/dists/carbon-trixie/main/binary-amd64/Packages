@@ -124,6 +124,27 @@ MD5sum: f55ab3a41ddd9d3477a836afd7341125
 Description: debug symbols for dillo
 Build-Ids: 01eff4bfe6bb79d5cf10bfb3b697b103040ba576 03e7c92723986c160fecc94e3ac378d5a59fcd3d 2cabcc54dca305bb4f0afbf99356d6c49937c13c 2fac217e1f99799b6d17f2e19c88163a82c27c9a 6b0b56b50dfec264ff50a07b9f21cbc8fba69fdf 8ec35d2cabdf45497a7debac1ea57a51de194de0 b2f89adac744a5782169a8c86cd2dcd9e302c372 c561912103f60e8c3152d39dd5f1f6be1def7c1e ec1512f6699478e015625ac814e2e745ff3fd75b edf2b128f934782c9388246b3cae95203ad7f469 f0c575b32c79bd88884b281bf31a662ab9f31edf
 
+Package: gir1.2-lightdm-1
+Source: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 47
+Depends: liblightdm-gobject-1-0 (= 1.32.0+git240823-6.1~bl1)
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Priority: optional
+Section: introspection
+Filename: pool/main/l/lightdm/gir1.2-lightdm-1_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 24816
+SHA256: e7d4d5511b34f97c55c1bbb02875b039f39bc9513ba06cc7841828e3937b38d1
+SHA1: 92c3c37330ca44ae6f0b921f25eb77905520ee3b
+MD5sum: 464c8c35f1360e8b69892cb812f80391
+Description: Typelib file for liblightdm-1
+ liblightdm provides a library for building LightDM greeters and applications.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings for liblightdm.
+
 Package: hyprpicker
 Version: 0.3.0-0.2
 Architecture: amd64
@@ -234,6 +255,192 @@ SHA1: 1a63d7760255a111664b9b572dff244d517928cb
 MD5sum: 017a9970d89f61d265feaa4544596a55
 Description: debug symbols for labwc-tweaks-gtk
 Build-Ids: bd5a6ab8ebccdf5aca28f19118670abf53bed11b
+
+Package: liblightdm-gobject-1-0
+Source: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 155
+Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libx11-6, libxklavier16 (>= 5.0)
+Multi-Arch: same
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Priority: optional
+Section: libs
+Filename: pool/main/l/lightdm/liblightdm-gobject-1-0_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 57144
+SHA256: 2fded0d5f9331509a207b74d429f11d76657a8303318b6b72c6eb6ab47c64c61
+SHA1: 9dacd0eaefd5bd6306c9c6d8dd823f9a50919891
+MD5sum: 874d0e4de2b99db6fe3bcecf69c1a3f6
+Description: simple display manager (GObject library)
+ This package contains the GObject library for lightdm, used by the GTK+
+ greeter.
+
+Package: liblightdm-gobject-1-0-dbgsym
+Source: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 170
+Depends: liblightdm-gobject-1-0 (= 1.32.0+git240823-6.1~bl1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/l/lightdm/liblightdm-gobject-1-0-dbgsym_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 140780
+SHA256: c86d72a0ccddf5ed0115ad586531e0e51efa839f8e8242bd191db510fe2fbd84
+SHA1: 469498384c4f5d407ded16eac27f58963f9819e0
+MD5sum: cba1e046d4d025429bc7dca24699fbc4
+Description: debug symbols for liblightdm-gobject-1-0
+Build-Ids: 5318647c59eac6113d1fb1ee7d3726b0103aa409
+
+Package: liblightdm-gobject-dev
+Source: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 771
+Depends: liblightdm-gobject-1-0 (= 1.32.0+git240823-6.1~bl1), gir1.2-lightdm-1 (= 1.32.0+git240823-6.1~bl1), libglib2.0-dev, libxklavier-dev, libx11-dev
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Priority: optional
+Section: libdevel
+Filename: pool/main/l/lightdm/liblightdm-gobject-dev_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 96052
+SHA256: ae1a95a7e24910d46d8b27753e80ae969fbd7bf5de3d1eb4060ce2dfdbda1819
+SHA1: 5b77c32ead6b69454abaad6bf4b177c8b3394ac7
+MD5sum: bc0711e14e8f81f95303ce5fcbb4182d
+Description: simple display manager (GObject development files)
+ This package contains the development files for lightdm.
+ They can be used to build new greeters applications GTK+ based.
+
+Package: liblightdm-qt5-3-0
+Source: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 118
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), liblightdm-gobject-1-0 (>= 1.32.0), libqt5core5t64 (>= 5.15.1), libqt5gui5t64 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libstdc++6 (>= 5)
+Recommends: lightdm
+Multi-Arch: same
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Priority: optional
+Section: libs
+Filename: pool/main/l/lightdm/liblightdm-qt5-3-0_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 41960
+SHA256: 781f807b68c827c52b7b7bde4084ef66ba39107bf9e1b4c3470a9d412f4e747c
+SHA1: a83c9816e19dece99df8a33ad786ba4b37735717
+MD5sum: 6549590a5e3551bccfcc29d734c5bf98
+Description: LightDM Qt 5 client library
+ A Qt 5 based library for LightDM clients to use to interface with LightDM.
+
+Package: liblightdm-qt5-3-0-dbgsym
+Source: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 516
+Depends: liblightdm-qt5-3-0 (= 1.32.0+git240823-6.1~bl1)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/l/lightdm/liblightdm-qt5-3-0-dbgsym_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 496004
+SHA256: 4ea86bcada4b6fad9a634a21a5dc646e0a71a70c337528f6f8684019880de314
+SHA1: b9e568327800cc706ece7fa745149fe1cfcc546a
+MD5sum: abd836d564e61e3c59c55694ec5d2645
+Description: debug symbols for liblightdm-qt5-3-0
+Build-Ids: 249de967f881f1fe26dc9bbd55300ce8f5c4ef09
+
+Package: liblightdm-qt5-3-dev
+Source: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 181
+Depends: liblightdm-qt5-3-0 (= 1.32.0+git240823-6.1~bl1), qtbase5-dev
+Multi-Arch: same
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Priority: optional
+Section: libdevel
+Filename: pool/main/l/lightdm/liblightdm-qt5-3-dev_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 44296
+SHA256: cb58bbd0152779abbdae515f34cd37b8135e69508e1d5282bcaaf2297a35b616
+SHA1: 4c47acc5854bfb2e92949729518142d142c07418
+MD5sum: df0522b0b0b223c8385608ed7691d72a
+Description: LightDM Qt 5 client library (development files)
+ A Qt 5 based library for LightDM clients to use to interface with LightDM.
+ .
+ This package contains header files and development information, which
+ is useful for building LightDM greeters and user switchers.
+
+Package: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 821
+Depends: adduser, dbus, libpam-systemd | logind, lightdm-gtk-greeter | lightdm-greeter, debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libgcrypt20 (>= 1.11.0), libglib2.0-0t64 (>= 2.80.0), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6
+Recommends: xserver-xorg
+Suggests: accountsservice, upower, xserver-xephyr
+Provides: x-display-manager
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Priority: optional
+Section: x11
+Filename: pool/main/l/lightdm/lightdm_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 164956
+SHA256: 63041db618d013c81bc5f5f6093f2a35a0129d28e83fa6640dd950e72ce92e2a
+SHA1: e284e9f792d7819c2a74138873192dd500dce1a1
+MD5sum: a0f22a76a532ed429b27fb147a0c8d57
+Description: simple display manager
+ An X display manager that:
+  * Has a lightweight codebase
+  * Is standards compliant (PAM, ConsoleKit, etc)
+  * Has a well defined interface between the server and user interface
+  * Fully themeable
+  * Cross-desktop (greeters can be written in any toolkit)
+ .
+ Additional software can be useful along with LightDM:
+  * xserver-xephyr can be used to add a nested X display by calling
+   'dm-tool add-nested-seat`
+  * upower can be used to suspend the computer from the display manager
+  * accountsservice is used to populate a user list with addition information.
+
+Package: lightdm-dbgsym
+Source: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 471
+Depends: lightdm (= 1.32.0+git240823-6.1~bl1)
+Priority: optional
+Section: debug
+Filename: pool/main/l/lightdm/lightdm-dbgsym_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 404200
+SHA256: 949329cc0fbe8534466229bc93c20d4711813c658aed8104d4d15ac2b36d0cbd
+SHA1: 17f8e9d2a09eb397eb23bf0d950a989c3acc3027
+MD5sum: 48a8d39adfb57ed56da2a1d182caf66f
+Description: debug symbols for lightdm
+Build-Ids: 0743975bc5b1ef1b6031a000f947063811d1da26 ad5724b57056694b9fd245f0936ecd8260dae867 cec2629a963d1250544798950918fe9332398e3d
+
+Package: lightdm-vala
+Source: lightdm
+Version: 1.32.0+git240823-6.1~bl1
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 42
+Multi-Arch: same
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Priority: optional
+Section: x11
+Filename: pool/main/l/lightdm/lightdm-vala_1.32.0+git240823-6.1~bl1_amd64.deb
+Size: 22632
+SHA256: 6d53bf91ecd0a93d642cd61a07024ef5f1522d9124e8cdea9aaa6bfcae4b1f81
+SHA1: 7cf92187fd3f38b933e5c2cf8df7f28933acddea
+MD5sum: b3e579632ca51fcd75af1a6c927edbac
+Description: simple display manager (Vala files)
+ This package contains the Vala files for the lightdm display manager
 
 Package: mtpaint
 Version: 3.50.09-0.1
