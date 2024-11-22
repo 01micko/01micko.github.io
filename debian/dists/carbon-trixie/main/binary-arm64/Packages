@@ -1,3 +1,24 @@
+Package: azote
+Version: 1.13.1-1.1~bl1
+Architecture: all
+Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
+Installed-Size: 8245
+Depends: python3:any, python3, python3-pil, python3-send2trash, python3-cairo, libgtk-3-0t64, swaybg | feh, wlr-randr | x11-xserver-utils
+Recommends: imagemagick, libayatana-appindicator3-1, grim | maim, slurp | slop
+Suggests: python-yaml
+Multi-Arch: foreign
+Homepage: https://github.com/nwg-piotr/azote
+Priority: optional
+Section: misc
+Filename: pool/main/a/azote/azote_1.13.1-1.1~bl1_all.deb
+Size: 7901352
+SHA256: de4a5335256f4c2967d4ae3b8ab0dc22b6ddf05d99e6e93ed6394d262b8145aa
+SHA1: 1240a2b6e3abe4a99520d8294bbcb743b1a4d017
+MD5sum: 14fb77683fdc8b6f97cd0cc865dbb16d
+Description: This is a GTK+3 - based picture browser and background setter
+ The user interface is being developed with multi-headed setups in mind.
+ Azote also includes several colour management tools.
+
 Package: bunsen-configs-wbase
 Source: bunsen-configs
 Version: 13.0-1.2
