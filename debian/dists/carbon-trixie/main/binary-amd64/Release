@@ -2,4 +2,6 @@ Component: main
 Origin: bunsenlabs testing
 Label: bunsenlabs testing
 Architecture: amd64
+NotAutomatic: yes
+ButAutomaticUpgrades: yes
 Description: Apt repository for project bunsenlabs testing

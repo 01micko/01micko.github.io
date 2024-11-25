@@ -4,60 +4,62 @@ Hash: SHA512
 Origin: bunsenlabs testing
 Label: bunsenlabs testing
 Codename: carbon-trixie
-Date: Fri, 22 Nov 2024 05:56:16 UTC
+Date: Mon, 25 Nov 2024 10:29:07 UTC
 Architectures: amd64 i386 arm64
 Components: main
 Description: Apt repository for project bunsenlabs testing
+NotAutomatic: yes
+ButAutomaticUpgrades: yes
 MD5Sum:
  935ca2c88438d330ae22455b8fabe0c6 22442 main/binary-amd64/Packages
  a75914a7a425cb763159da710d577462 7820 main/binary-amd64/Packages.gz
- 6ef1f54b24dd19bceb6367ea1f20a328 148 main/binary-amd64/Release
+ 3f4bb522bfafd3207a071d11722c6f28 192 main/binary-amd64/Release
  103fdbca0444c3e7d8a2643726b705c6 2480 main/binary-i386/Packages
  195d5ba90a8b7b54457d11e8423df84f 1301 main/binary-i386/Packages.gz
- 98f61394a1b8cc3e098f94634d2b075d 147 main/binary-i386/Release
+ 03b44b188777e85879dd52926a518d6d 191 main/binary-i386/Release
  103fdbca0444c3e7d8a2643726b705c6 2480 main/binary-arm64/Packages
  195d5ba90a8b7b54457d11e8423df84f 1301 main/binary-arm64/Packages.gz
- 5268379c0232b25d9592840d9c71f39c 148 main/binary-arm64/Release
+ 04b7dc89ef305ac0cab35e59434ae42a 192 main/binary-arm64/Release
  59d2557e13447bbdc2bf5fe5f5b46b75 14212 main/source/Sources
  d98c323b0e998f757a846526a173e523 4790 main/source/Sources.gz
- f6466cca490ff55740efc93090c04729 149 main/source/Release
+ 15017494367b44b128ca5b93261788f4 193 main/source/Release
 SHA1:
  73bdeba3074fb87d473408bb72fc2e98b9596bba 22442 main/binary-amd64/Packages
  db3fb5f1879df0f936465721a9c61deed5474c82 7820 main/binary-amd64/Packages.gz
- 920e91cf3b392932c3f15d5f7c364f7c750480f7 148 main/binary-amd64/Release
+ 192aa552827ae4dc87f916351f44f4ec563edd1c 192 main/binary-amd64/Release
  d86c822f664e78c31e596ee75eb9066ca970739e 2480 main/binary-i386/Packages
  f280cf7d7b36d37d6e8819cfe94dc35a57c007d8 1301 main/binary-i386/Packages.gz
- 8386105c5b222bf999ad577e6684bd93d8474ec3 147 main/binary-i386/Release
+ 5b57195e7401181f2e5eb1a65ca28779614fb3b0 191 main/binary-i386/Release
  d86c822f664e78c31e596ee75eb9066ca970739e 2480 main/binary-arm64/Packages
  f280cf7d7b36d37d6e8819cfe94dc35a57c007d8 1301 main/binary-arm64/Packages.gz
- 8c3a47b602134c87355d048250adf8dfa9dc87af 148 main/binary-arm64/Release
+ 44e74c412283c67cdc7613f491b7d7da6bbd5d4a 192 main/binary-arm64/Release
  d35c648c3a6eaed1f3981c7feae2806f02d09ec7 14212 main/source/Sources
  dc600869afa7936659171d8cbd5eff781ecf3522 4790 main/source/Sources.gz
- c691b84df325e28a25cffe3ded0539ddbea3bab3 149 main/source/Release
+ e11f7150417967154fb1e8ee4b872a2fc2fabb02 193 main/source/Release
 SHA256:
  8ec5021c6e963db20865a042195ba518b26e167f4203efd7e91e30e67445bf36 22442 main/binary-amd64/Packages
  c01ee55b43eea2fc4eb5d41f874871933dffe9fb912a1c5fc1d23d1e410bdfdb 7820 main/binary-amd64/Packages.gz
- acc089a14b58eb0b932c4f982ebda8c54a25e01da392a292298a6c301bbafca5 148 main/binary-amd64/Release
+ 0ab75f6ab00388323ec9f3973d49dd4685d809805911b4ca7157b5e647c2c2ae 192 main/binary-amd64/Release
  ed11be0dc9847f72a8ba68217da2a21399dc3e0040c41451f1039cd806bf25b1 2480 main/binary-i386/Packages
  706a52ada2f8bb923058f44f5d7c35c8a723ab718bf3ff42c59637b762f94cd2 1301 main/binary-i386/Packages.gz
- 94e5c6f83add3ca371b43d8f0f19b2af236b420d602543edf516cdb2c9b60e12 147 main/binary-i386/Release
+ 52408ab3d44dd8bae35368f4711a38fa92a914214f0c04d97f8a542ff9cd4359 191 main/binary-i386/Release
  ed11be0dc9847f72a8ba68217da2a21399dc3e0040c41451f1039cd806bf25b1 2480 main/binary-arm64/Packages
  706a52ada2f8bb923058f44f5d7c35c8a723ab718bf3ff42c59637b762f94cd2 1301 main/binary-arm64/Packages.gz
- fee6bab02223d502dd204ec38edcee2d1aa24d49e6fda7048e9c958516386c2e 148 main/binary-arm64/Release
+ ffd74ec19050152706c2931152143ddd54d8b5c418f0e813d129939e7484f8ae 192 main/binary-arm64/Release
  c21a965a07d26bea61cf3b1e598d87690b3e6e328e2bd2b9f1414cb118444280 14212 main/source/Sources
  0f74322e8e3d65c8b202b78c0de0352b3c255a1bfd9f3055656ab4ad53ed0b45 4790 main/source/Sources.gz
- 6a82f397ae52783a2661ac51e91884e9699e78f11105601bf02b6eb898433b47 149 main/source/Release
+ 1ebd6523a105a1055daf544bba6b8125d7617ac06e6740a4dcd91c2f89936959 193 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEQxPCw1KdcM1eZRAYvcD/Zm4+YDAFAmdAHQ0ACgkQvcD/Zm4+
-YDCDnQv+PRgTbLUmqqxLDXNIPnSwp05/yYQPg+DdXl4x+HNa/V/dNZd0IEuRw0Rw
-0yc5XQ4uNDqqKzHfNVVFtXNxsYyw6ZIp1C9dmuViobfBtXgWbK0z7OrS3RHkRVnp
-cc8U7DqLWe4V+jrgKle/k4QDx3BEzWu5Xgi9UeEXptnQvLNziuubiR4i+dSNZsxc
-DwkDIjgd2JpVfPZyDCg2swhMweW2yl67nuL/3WNhz38Mzk1iNMq2IWDIZbyaWZ/V
-4EUUFN8amlgf7hKTM+YN27I7DqZ0utxKEWrXHXqEL2+kVg92biWZ01VwfDMctWgC
-w401Z4uEQVgn1c+OClrKVXDAN+l4xDrYT8wcMhR3szKMJSEzB5IRT/1FdcP2lIeE
-4Jrl3bneJ5spRIWqnCHChK5Ll2NFKwXKB+6pC1ZED4UADmrrFESuXDklPXyRo2vM
-40RVjHtfDNbnl9rAe2JezkE0l6oaCW2GXx73buT4fQyiUA+Ebc6CG1InoC1B2uDx
-W4GeEVNS
-=HFxa
+iQGzBAEBCgAdFiEEQxPCw1KdcM1eZRAYvcD/Zm4+YDAFAmdEUYAACgkQvcD/Zm4+
+YDD4ZwwAutBvz3Ic8Kot+PgRfNJUdop6xHjlmxJTB3qWzQRu869V1m9DTz1tKJoU
+ZRdrIJWna1XKCPWjSDZ+VkvQyX84dVDC2zkBZ8xWJBflMzUh353Po+4vqmmekZWA
+rpmrjp8stLL4yfhuxmV25MvvxvTVP9MHdUYrAWrrWe8f8iqM40dJb407XAfRF3Sd
+MK3bK7L8m/RuXkxMs9aAIUGB+MxDgLgb+7NG6Yky7KbcaTb5JhPXgYN02jUM6AFe
+sP9Frd8gY2AcwfCjCul51KxGYKZtGXpEyz2avn/VcXDjf/tLKwG/I9uocMGYrca/
+8kBYK9KKtPe0AofC3ood5pA0dEnquaZ8C4HNWOPIVClkuY5WlAdwZuOuYiTp47RM
+xHozLN/4uWdkTGc5f9UytK4CsNJ0a3IZVKiLn4nqjV2zUF6tgHQoSJzB62Mtt44h
+B9CPYRs2vlxyfvfZ0VS5gzS2jWfOu2yGlKl1dXO8Bb1XhzqGmA/XCwyEMlerKIWG
+s/XknDAp
+=F4s+
 -----END PGP SIGNATURE-----
