@@ -167,7 +167,7 @@ Description: Typelib file for liblightdm-1
  generate dynamic bindings for liblightdm.
 
 Package: gtk3dialog
-Version: 0.1.0-1
+Version: 0.1.0-2
 Architecture: amd64
 Maintainer: Mick Amadio <01micko@gmail.com>
 Installed-Size: 318
@@ -176,36 +176,36 @@ Multi-Arch: foreign
 Homepage: https://github.com/01micko/gtk3dialog
 Priority: optional
 Section: misc
-Filename: pool/main/g/gtk3dialog/gtk3dialog_0.1.0-1_amd64.deb
-Size: 110868
-SHA256: 8d0558a5ada41cd0478c7c26aa466b3302104fde51bc9a901805d0a34971c0ca
-SHA1: c03c18eda6de5d35b0c3d8ad7db622521da57382
-MD5sum: ff0a32b893c4f7e0371dc3cb2d108e9d
+Filename: pool/main/g/gtk3dialog/gtk3dialog_0.1.0-2_amd64.deb
+Size: 111176
+SHA256: e29ad2ec871ebf7ad98afb46519d1034c6251f91148ecfa574f83fb40342b48d
+SHA1: 9e3af96279abc643dca73e0d97b7b41dde2d4cf0
+MD5sum: b601823bfc5ea745792ce572f811d271
 Description: graphical gui building application for x11 or wayland.
- Gtk3dialog can make display graphical GTK+ dialog boxes from the
+ Gtk3dialog can display graphical GTK+ dialog boxes from the
  command line or from shell scripts.
 
 Package: gtk3dialog-dbgsym
 Source: gtk3dialog
-Version: 0.1.0-1
+Version: 0.1.0-2
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Mick Amadio <01micko@gmail.com>
 Installed-Size: 323
-Depends: gtk3dialog (= 0.1.0-1)
+Depends: gtk3dialog (= 0.1.0-2)
 Priority: optional
 Section: debug
-Filename: pool/main/g/gtk3dialog/gtk3dialog-dbgsym_0.1.0-1_amd64.deb
-Size: 274604
-SHA256: afc0c18bd4ed315a3b8646169fb535bf86ec60d63046749a5380ee0553725f7b
-SHA1: a24d0d8280c16b0d6ced06315f64d0dd40747d4e
-MD5sum: b91da76d4d594b8e8a920a0987f9f9bb
+Filename: pool/main/g/gtk3dialog/gtk3dialog-dbgsym_0.1.0-2_amd64.deb
+Size: 274612
+SHA256: 735d2a92f3e73747e874e3ce71d37cdce19ce7989eccc37abd24dd501b4e0071
+SHA1: c3bb5b9dc9797f1a881320cb14d3871c53e901b4
+MD5sum: 25e9478ac528f9839f2ad462d54403ca
 Description: debug symbols for gtk3dialog
 Build-Ids: f3af15e1402874d415e2d02da878ae1b9f478f16
 
 Package: gtk3dialog-doc
 Source: gtk3dialog
-Version: 0.1.0-1
+Version: 0.1.0-2
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmail.com>
 Installed-Size: 1197
@@ -213,13 +213,13 @@ Multi-Arch: foreign
 Homepage: https://github.com/01micko/gtk3dialog
 Priority: optional
 Section: misc
-Filename: pool/main/g/gtk3dialog/gtk3dialog-doc_0.1.0-1_all.deb
-Size: 135420
-SHA256: 5102095865e732290f6e186e12fc1c822c902c78ed213c8089cd1add30ae8b55
-SHA1: 966c244e89552a8c6b388a41afc4d96d758346f1
-MD5sum: ec8e5eb5f05b29914c65cd568861f98c
+Filename: pool/main/g/gtk3dialog/gtk3dialog-doc_0.1.0-2_all.deb
+Size: 135460
+SHA256: b5fb4297056b915013467ee5009b61b8ed5612cf59c457698c4e78358574d91d
+SHA1: af9d4688af1523ae99e0be793b214f1b33cc323d
+MD5sum: b7762a6b7546452cdd527b3ef49554af
 Description: graphical gui building application for x11 or wayland.
- Gtk3dialog can make display graphical GTK+ dialog boxes from the
+ Gtk3dialog can display graphical GTK+ dialog boxes from the
  command line or from shell scripts.
 
 Package: hyprpicker

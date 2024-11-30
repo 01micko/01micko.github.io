@@ -52,7 +52,7 @@ Description: config files for minimal wayland BunsenLabs Linux
 
 Package: gtk3dialog-doc
 Source: gtk3dialog
-Version: 0.1.0-1
+Version: 0.1.0-2
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmail.com>
 Installed-Size: 1197
@@ -60,12 +60,12 @@ Multi-Arch: foreign
 Homepage: https://github.com/01micko/gtk3dialog
 Priority: optional
 Section: misc
-Filename: pool/main/g/gtk3dialog/gtk3dialog-doc_0.1.0-1_all.deb
-Size: 135420
-SHA256: 5102095865e732290f6e186e12fc1c822c902c78ed213c8089cd1add30ae8b55
-SHA1: 966c244e89552a8c6b388a41afc4d96d758346f1
-MD5sum: ec8e5eb5f05b29914c65cd568861f98c
+Filename: pool/main/g/gtk3dialog/gtk3dialog-doc_0.1.0-2_all.deb
+Size: 135460
+SHA256: b5fb4297056b915013467ee5009b61b8ed5612cf59c457698c4e78358574d91d
+SHA1: af9d4688af1523ae99e0be793b214f1b33cc323d
+MD5sum: b7762a6b7546452cdd527b3ef49554af
 Description: graphical gui building application for x11 or wayland.
- Gtk3dialog can make display graphical GTK+ dialog boxes from the
+ Gtk3dialog can display graphical GTK+ dialog boxes from the
  command line or from shell scripts.
 
