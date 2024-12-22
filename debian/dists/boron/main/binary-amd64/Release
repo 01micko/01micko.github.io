@@ -1,0 +1,7 @@
+Component: main
+Origin: bunsenlabs
+Label: bunsenlabs
+Architecture: amd64
+NotAutomatic: yes
+ButAutomaticUpgrades: yes
+Description: Apt repository for project bunsenlabs

@@ -1,0 +1,19 @@
+Package: gtk3dialog-doc
+Source: gtk3dialog
+Version: 0.1.1-2
+Architecture: all
+Maintainer: Mick Amadio <01micko@gmail.com>
+Installed-Size: 1196
+Multi-Arch: foreign
+Homepage: https://github.com/01micko/gtk3dialog
+Priority: optional
+Section: misc
+Filename: pool/main/g/gtk3dialog/gtk3dialog-doc_0.1.1-2_all.deb
+Size: 135056
+SHA256: 0848173e8568281a273a0964332c31cd18b545499e980e14711e504697259a86
+SHA1: 5aa8d500a9683eb1c6f6e833538650ae5b86c1b8
+MD5sum: 1728e6145c4eb1f00f6b44368cdb7486
+Description: graphical gui building application for x11 or wayland.
+ Gtk3dialog can make display graphical GTK+ dialog boxes from the
+ command line or from shell scripts.
+

@@ -1,0 +1,7 @@
+Component: main
+Origin: bunsenlabs
+Label: bunsenlabs
+Architecture: source
+NotAutomatic: yes
+ButAutomaticUpgrades: yes
+Description: Apt repository for project bunsenlabs
