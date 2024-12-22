@@ -7,6 +7,7 @@ If you want to add my debian repository you simply need to add my config and key
 You need to download the setup_apt_secure.sh.tar.gz tarball, extract it and run straight from
 where you extracted it to:
 
+#### for carbon-trixie
 
 ```
 wget https://01micko.github.io/setup_apt_secure.sh.tar.gz
@@ -29,6 +30,8 @@ You can then delete the script, it is no longer needed.
 
 ### Download and Copy way
 
+
+#### for carbon-trixie
 
 ```
 wget https://01micko.github.io/01micko.sources
