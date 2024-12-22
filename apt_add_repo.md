@@ -13,10 +13,10 @@ wget https://01micko.github.io/setup_apt_secure.sh.tar.gz
 tar -xvf setup_apt_secure.sh.tar.gz
 ./setup_apt_secure.sh
 ```
-or if on boron
+#### or if on boron
 
 ```
-wget https://01micko.github.io/setup_apt_secure.sh.tar.gz
+wget https://01micko.github.io/setup_apt_secure_boron.sh.tar.gz
 tar -xvf setup_apt_secure_boron.sh.tar.gz
 ./setup_apt_secure_boron.sh
 ```
@@ -34,10 +34,10 @@ You can then delete the script, it is no longer needed.
 wget https://01micko.github.io/01micko.sources
 sudo cp 01micko.sources /etc/apt/sources.list.d/
 ```
-or if on boron
+#### or if on boron
 
 ```
-wget https://01micko-boron.github.io/01micko.sources
+wget https://01micko.github.io/01micko-boron.sources
 sudo cp 01micko-boron.sources /etc/apt/sources.list.d/
 ```
 
