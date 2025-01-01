@@ -574,3 +574,23 @@ MD5sum: 2cc6c625a450c77a6e970769060fb30b
 Description: debug symbols for sfwbar
 Build-Ids: 05d4b71330129f5b636019299034d651f0bc111d 1030e7f5aabba98d47635228fb885d03dcfdbcdd 4623ba6257da865e9f526899519c524c043d8626 5c7a10120c8d61632dd4464dd74aba6896d48eab 7031aa2bbde2fa0d92338bbc5d28e9129f0525a3 8d1ef7d6c7fb1b5c2bdbd3d08b65935cc8da5cc4 ba270c76af983827e86d04ce5ac71d4713a0efa5 c6314a57f5961337a782a2a179862dd137da7bb9 c6badcd6bb2354302e0c261e716fd68fb40bab6c e23f163b9a8aad59679c7ba467a47b6c41035bec f9d0ce6ab5d8154379eeb3945396c2c1467b45f6
 
+Package: xwwall
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Mick Amadio <01micko@gmail.com>
+Installed-Size: 49
+Depends: bash (>= 5.0), gtk3dialog, feh | swaybg, x11-xserver-utils | wlr-randr
+Multi-Arch: foreign
+Homepage: https://github.com/01micko/xwwall
+Priority: optional
+Section: x11
+Filename: pool/main/x/xwwall/xwwall_0.1.0-1_all.deb
+Size: 12740
+SHA256: 68c5f0c78dbe5e30ba5604d2c898e912fe2b6cc35e67ca1a8e0e129df466f2b7
+SHA1: 41b4089d2e397a8cd945aa919ff3515a6ec1e95a
+MD5sum: e151463abe5b636d6b9e4b818566c020
+Description: Wallpaper setter for X11 and Wayland
+ xwwall is a graphical wallpaper setter for the X Window System
+ often known as X11 and Wayland desktops for Linux and other
+ *nix distributions.
+
