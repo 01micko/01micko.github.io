@@ -1,55 +1,3 @@
-Package: azote
-Version: 1.13.1-1.1~bl1
-Architecture: all
-Maintainer: Maytham Alsudany <maytha8thedev@gmail.com>
-Installed-Size: 8245
-Depends: python3:any, python3, python3-pil, python3-send2trash, python3-cairo, libgtk-3-0t64, swaybg | feh, wlr-randr | x11-xserver-utils
-Recommends: imagemagick, libayatana-appindicator3-1, grim | maim, slurp | slop
-Suggests: python-yaml
-Multi-Arch: foreign
-Homepage: https://github.com/nwg-piotr/azote
-Priority: optional
-Section: misc
-Filename: pool/main/a/azote/azote_1.13.1-1.1~bl1_all.deb
-Size: 7901352
-SHA256: de4a5335256f4c2967d4ae3b8ab0dc22b6ddf05d99e6e93ed6394d262b8145aa
-SHA1: 1240a2b6e3abe4a99520d8294bbcb743b1a4d017
-MD5sum: 14fb77683fdc8b6f97cd0cc865dbb16d
-Description: This is a GTK+3 - based picture browser and background setter
- The user interface is being developed with multi-headed setups in mind.
- Azote also includes several colour management tools.
-
-Package: bunsen-configs-wbase
-Source: bunsen-configs
-Version: 13.0-1.2
-Architecture: all
-Maintainer: John Crawley <john@bunsenlabs.org>
-Installed-Size: 720
-Depends: python3
-Recommends: bunsen-images-base, bunsen-numix-icon-theme, bunsen-themes-base, bunsen-thunar, dmz-cursor-theme, greetd, labwc-menu-generator, nwg-hello, python3-xdg, sensible-utils, sfwbar, xbindkeys, xcape, yad
-Suggests: fonts-liberation, fonts-inconsolata, qt5-gtk-platformtheme, qt5-style-plugins, libqt5svg5, librsvg2-common
-Conflicts: bunsen-configs, bunsen-configs-base, bunsen-configs-lite
-Breaks: bunsen-conky (<< 11.1-1)
-Replaces: bunsen-configs, bunsen-configs-base, bunsen-configs-lite, bunsen-conky (<< 11.1-1)
-Homepage: https://github.com/BunsenLabs/bunsen-configs
-Priority: optional
-Section: misc
-Filename: pool/main/b/bunsen-configs/bunsen-configs-wbase_13.0-1.2_all.deb
-Size: 144496
-SHA256: a1771cfa9dfe7e88635ede6ed70469971acfffee25b548c5295d6a4b9b0d8751
-SHA1: 5dc018c628ac636b71bc617346e5bbcf5ec775ee
-MD5sum: 8c8e7a4747c30831f8601dbbd8d7b5f8
-Description: config files for minimal wayland BunsenLabs Linux
- Various configuration files for BunsenLabs Linux with wayland.
- Contains user config files to be copied into a new user's home directory,
- scripts and desktop files to set up the bl-alternatives system,
- and some other system configuration files.
- .
- This package provides some modified files for a minimal system.
- Unused menu items are removed and the autostart script is adjusted.
- Memory usage and disk space should be slightly lower
- than with the standard configs package.
-
 Package: conky-wl
 Source: conky
 Version: 1.20.2-0.1
@@ -259,50 +207,6 @@ MD5sum: 19419cbcd7c778d7f1bc094cb9bd4b21
 Description: debug symbols for hyprpicker
 Build-Ids: 7c09697b10a707f4c4115813d47f0eeada0162bd
 
-Package: labwc
-Version: 0.8.2-2.1+bl1
-Architecture: amd64
-Maintainer: Lab Wayland Compositor Team <team+labwc@tracker.debian.org>
-Installed-Size: 714
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.14.0), libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.5.0), libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.22.0), libpixman-1-0 (>= 0.25.2), libpng16-16t64 (>= 1.6.2), librsvg2-2 (>= 2.46.0), libsfdo (>= 0.1.3), libwayland-server0 (>= 1.20.92), libwlroots-0.18 (>= 0.18.0), libxcb1, libxkbcommon0 (>= 1.0.0), libxml2 (>= 2.7.4), xwayland
-Suggests: swaybg, kanshi, waybar, mako-notifier, swayidle, foot | alacritty | x-terminal-emulator
-Homepage: https://labwc.github.io/
-Priority: optional
-Section: x11
-Filename: pool/main/l/labwc/labwc_0.8.2-2.1+bl1_amd64.deb
-Size: 261124
-SHA256: 85067f2f495d92228b21d82d46b55243c2887d0276f30dde644912bbdd167eef
-SHA1: ee2965113a49290e87f46116c48f536a244089e5
-MD5sum: d979ce6001822b24810321c8b44fb42e
-Description: window-stacking Wayland compositor
- Labwc is a wlroots-based window-stacking compositor for wayland, inspired by
- openbox.
- .
- It is light-weight and independent with a focus on simply stacking windows
- well and rendering some window decorations. It takes a no-bling/frills
- approach and says no to features such as icons (except window buttons),
- animations, decorative gradients and any other options not required to
- reasonably render common themes. It relies on clients for panels, screenshots,
- wallpapers and so on to create a full desktop environment.
-
-Package: labwc-dbgsym
-Source: labwc
-Version: 0.8.2-2.1+bl1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Lab Wayland Compositor Team <team+labwc@tracker.debian.org>
-Installed-Size: 817
-Depends: labwc (= 0.8.2-2.1+bl1)
-Priority: optional
-Section: debug
-Filename: pool/main/l/labwc/labwc-dbgsym_0.8.2-2.1+bl1_amd64.deb
-Size: 617164
-SHA256: 4916d0b58468cfbe10be27f15c0814bf7a66390077c67b7307f8dafa85caaa4f
-SHA1: 38a7059763a3c49386b999e50bdbe7a1bad764fa
-MD5sum: 6f882569d4a6d2279aabcb5afbaa26c3
-Description: debug symbols for labwc
-Build-Ids: 7c6aa5afbaa1da992f31b4d60d55b2664ced1d8b
-
 Package: labwc-menu-generator
 Version: 0.1.0-0.1
 Architecture: amd64
@@ -496,64 +400,6 @@ Description: LightDM Qt 5 client library (development files)
  This package contains header files and development information, which
  is useful for building LightDM greeters and user switchers.
 
-Package: libsfdo
-Version: 0.1.3-1
-Architecture: amd64
-Maintainer: Mick Amadio <01micko@gmail.com>
-Installed-Size: 129
-Depends: libc6 (>= 2.33)
-Multi-Arch: same
-Homepage: https://gitlab.freedesktop.org/vyivel/libsfdo
-Priority: optional
-Section: libs
-Filename: pool/main/libs/libsfdo/libsfdo_0.1.3-1_amd64.deb
-Size: 33256
-SHA256: b2fd5e9cc20816b29064657f6871cf97817cdbb95513a9582b606ffb5d414460
-SHA1: ed0e821f903ced8cd87ab9a0a54eeee659294edb
-MD5sum: a78f98a2de307521c84604d2055390ce
-Description: libraries for for finding icons.
- A collection of libraries which implement some of the freedesktop.org
- specifications.
-
-Package: libsfdo-dbgsym
-Source: libsfdo
-Version: 0.1.3-1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Mick Amadio <01micko@gmail.com>
-Installed-Size: 153
-Depends: libsfdo (= 0.1.3-1)
-Multi-Arch: same
-Priority: optional
-Section: debug
-Filename: pool/main/libs/libsfdo/libsfdo-dbgsym_0.1.3-1_amd64.deb
-Size: 112780
-SHA256: cc61895a9e1acb59e5939dd1cd75bebeea7a2e040475b9c14756f6755e9d7c24
-SHA1: 1741253de1827ceb0f6b4ef81e9de2dc1f782f6a
-MD5sum: c6a2e18aa05359b556189db5b42dd409
-Description: debug symbols for libsfdo
-Build-Ids: a360ec0fa604028a924b8d12b87bf78d0472dff3 c8ec4ee8d99b04713208536f24050f44853ec034 d14aa97e8ecdf923ad0b8cba1f1d04cc4559e9c8 ee7af7b4270cc07d064e4efcb52a623093a38496
-
-Package: libsfdo-dev
-Source: libsfdo
-Version: 0.1.3-1
-Architecture: amd64
-Maintainer: Mick Amadio <01micko@gmail.com>
-Installed-Size: 48
-Depends: libsfdo (= 0.1.3-1)
-Multi-Arch: same
-Homepage: https://gitlab.freedesktop.org/vyivel/libsfdo
-Priority: optional
-Section: libdevel
-Filename: pool/main/libs/libsfdo/libsfdo-dev_0.1.3-1_amd64.deb
-Size: 7156
-SHA256: 166152deeb1b9b5558a94b26c0f3f117b84719b022a482d686464228d45c4306
-SHA1: 5d62ba2dd9e3757e103bfd91925b3b15c08804c9
-MD5sum: 508a83d7fc27a6a962b190feba3db570
-Description: libraries for for finding icons development files.
- A collection of libraries which implement some of the freedesktop.org
- specifications.
-
 Package: lightdm
 Version: 1.32.0+git240823-6.1~bl1
 Architecture: amd64
@@ -620,26 +466,6 @@ SHA1: 7cf92187fd3f38b933e5c2cf8df7f28933acddea
 MD5sum: b3e579632ca51fcd75af1a6c927edbac
 Description: simple display manager (Vala files)
  This package contains the Vala files for the lightdm display manager
-
-Package: mtpaint
-Version: 3.50.09-0.1
-Architecture: amd64
-Maintainer: Mick Mars <01micko@gmail.com>
-Installed-Size: 2048
-Depends: libc6 (>= 2.34), libcairo2 (>= 1.12.0), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.79.0), libgtk-3-0t64 (>= 3.21.6), libjpeg62-turbo (>= 1.3.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpng16-16t64 (>= 1.6.2), libtiff6 (>= 4.0.3), libwebp7 (>= 1.4.0), zlib1g (>= 1:1.2.0), gtklp
-Multi-Arch: foreign
-Homepage: <https://github.com/wjaguar/mtPaint>
-Priority: optional
-Section: unknown
-Filename: pool/main/m/mtpaint/mtpaint_3.50.09-0.1_amd64.deb
-Size: 589232
-SHA256: d446aa2c309a864e5b22b651d5f1c439d5fc27f9665e903e4cac899169de2015
-SHA1: b28f74409d1d385d800b38c12b8221f0427f6ae5
-MD5sum: ad96752fb97ca376b112ad82baefb447
-Description: Mark Tyler's Painting Program
- mtPaint is a GTK+1/2/3 based painting program designed for creating
- icons and pixel based artwork. It can edit indexed palette or 24 bit
- RGB images and offers painting and palette manipulation tools.
 
 Package: sfwbar
 Version: 1.0~beta15-0.1
