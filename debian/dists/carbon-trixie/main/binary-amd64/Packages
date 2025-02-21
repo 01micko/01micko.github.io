@@ -467,6 +467,50 @@ MD5sum: b3e579632ca51fcd75af1a6c927edbac
 Description: simple display manager (Vala files)
  This package contains the Vala files for the lightdm display manager
 
+Package: qt6gtk2
+Version: 0.3-1
+Architecture: amd64
+Maintainer: Matthew T Hoare <matthew.t.hoare@gmail.com>
+Installed-Size: 352
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libqt6core6t64 (>= 6.7.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libx11-6, qt6-base-private-abi (= 6.7.2)
+Homepage: https://github.com/trialuser02/qt6gtk2/
+Priority: optional
+Section: x11
+Filename: pool/main/q/qt6gtk2/qt6gtk2_0.3-1_amd64.deb
+Size: 108744
+SHA512: 7b4ec10120bc08443cca807a9ea50bd9e2314a206584b10423fc396f100b419e84ada3bcc8efae0d9d3dc8a640dd5b23adf471d6b9f43d0e84e33f20764e28ed
+SHA256: 76652ed840359d92243cad39c27fb16b77417476aa75a3ddbcdcc8c15de98c6d
+SHA1: 475afb06bac03fbba2fa70638acb62b26b02c18f
+MD5sum: af1d0f4fb9075f3c4308b6a43e72eea2
+Description: GTK 2 integration plugins for Qt6
+ This package contains the GTK 2 style and platform theme, for proper usage
+ it requires that you have a functional GTK 2 theme selected.
+ .
+ To enable it for all Qt applications, export QT_QPA_PLATFORMTHEME=qt6gtk2
+ or 'gtk2', 'qt5gtk2' also work for compatibility reasons.
+ .
+ To avoid visual bugs, ensure that the environment variable QT_STYLE_OVERRIDE
+ is not set before usage.
+
+Package: qt6gtk2-dbgsym
+Source: qt6gtk2
+Version: 0.3-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Matthew T Hoare <matthew.t.hoare@gmail.com>
+Installed-Size: 2393
+Depends: qt6gtk2 (= 0.3-1)
+Priority: optional
+Section: debug
+Filename: pool/main/q/qt6gtk2/qt6gtk2-dbgsym_0.3-1_amd64.deb
+Size: 2356336
+SHA512: f13c8f503f5dde782a9da5578dc9d543e6310911d0029619581a622ac9931a4df8960c77168d2f9d7cc6ab6149fd1a7c2e8bf9be930591fb173dbd2ed7bf5ce3
+SHA256: 6118b58da0442cb98e8b1f6f5c68174f2f063ec782763a4754f6e20dd1a39a60
+SHA1: b8b431408b0c37633dc41c1574b653bbf6e2eb62
+MD5sum: 636e52709b9e956f17a957d0d00d543d
+Description: debug symbols for qt6gtk2
+Build-Ids: 10d535e98aa762c988e0aae89b861056cd5a5ed2 cef61cf8e601d44a2261c828cb61f3614496b8c9
+
 Package: sfwbar
 Version: 1.0~beta15-0.1
 Architecture: amd64
