@@ -17,21 +17,70 @@ Description: graphical gui building application for x11 or wayland.
  Gtk3dialog can display graphical GTK+ dialog boxes from the
  command line or from shell scripts.
 
-Package: xwwall
-Version: 0.1.1-1
+Package: labbe-min-icons
+Version: 0.1.0-1
 Architecture: all
-Maintainer: Mick Amadio <01micko@gmail.com>
-Installed-Size: 49
+Maintainer: Mick Amadio <01micko@gmx.com>
+Installed-Size: 622
+Depends: librsvg2-common, material-solarized-suruplusplus-carbon
+Recommends: gtk-update-icon-cache
+Multi-Arch: foreign
+Homepage: https://github.com/01micko/labbe-min-icons
+Priority: optional
+Section: x11
+Filename: pool/main/l/labbe-min-icons/labbe-min-icons_0.1.0-1_all.deb
+Size: 11532
+SHA512: 89eaf9274f3c9637c6a4b00381a31f77e9a3c50e2a9fa10542a5a13de0cf818bbdb1a7fa9309e7773134fad6d007f473b996e5716908af88e3f57f7fe7b57e10
+SHA256: 8242ec28584afab5f854459d2c22fec1ceaccfa1678a86e9dee2fe65ba22000c
+SHA1: 7d1e293819c033764a50880e08a5c37b0abad97a
+MD5sum: 49239af394abaa78a05b1f0a3de11d07
+Description: Light weight gtk icon theme, minimal version.
+ It includes 2 colors, sage and bark making it an ideal complement
+ for the yaru GTK themes.
+
+Package: material-solarized-suruplusplus-carbon
+Version: 13.0-1
+Architecture: all
+Maintainer: Mick Amadio <01micko@gmx.com>
+Installed-Size: 116884
+Depends: librsvg2-common
+Recommends: gtk-update-icon-cache
+Homepage: https://github.com/BunsenLabs/material-solarized-suruplusplus-icons-sage
+Priority: optional
+Section: x11
+Filename: pool/main/m/material-solarized-suruplusplus-carbon/material-solarized-suruplusplus-carbon_13.0-1_all.deb
+Size: 5835180
+SHA512: 707b650c940f44e6614edcda7ae49dc07b7130b6a6bf25a243ac43c2a0f4a9ee76e90ad7d8df4ce99fc663b6444c36e32259eaaa0005dfaccb6442b984ae7021
+SHA256: 0047978b7ef4466602561aa85b5a71ee846c391ebe713d3019a0361660bf296e
+SHA1: cdf35b3e6f3298e160072fe4e4cc7808fe165227
+MD5sum: 56e45a2e49fee2225cd625a6db26ce6e
+Description: Material-Solarized-Sage++ and Bark++ icons sets.
+ From rtl88-Themes, this is the Material-Solarized-Suru++ icon set
+ from the Material-Solarized branch, packaged and modified for
+ BunsenLabs.
+ .
+ The package is named material-solarized-suruplusplus-carbon
+ because of restrictions by GitHub on characters in repository names.
+ .
+ Upstream repository:
+ https://github.com/rtlewis88/rtl88-Themes/tree/Material-Solarized
+
+Package: xwwall
+Version: 0.2.0-1
+Architecture: all
+Maintainer: Mick Amadio <01micko@gmx.com>
+Installed-Size: 61
 Depends: bash (>= 5.0), gtk3dialog, feh | swaybg, x11-xserver-utils | wlr-randr
 Multi-Arch: foreign
 Homepage: https://github.com/01micko/xwwall
 Priority: optional
 Section: x11
-Filename: pool/main/x/xwwall/xwwall_0.1.1-1_all.deb
-Size: 12808
-SHA256: a98a66853182bf027b764b0c5bf3b9e636df5d596d100df5b141009531c785af
-SHA1: 763d88fcd59569a848720977b3d7e6ce8a8eb311
-MD5sum: cf8eb7bdd8859009fcbc75b81c816d38
+Filename: pool/main/x/xwwall/xwwall_0.2.0-1_all.deb
+Size: 15684
+SHA512: e8da358ff979daae8e40200809be13b29c17c4dc1dff213fc046ec029e82d735f915e1e07ca02267ee94b7e4f13e894689c8be0e3ac4fafbf0fa5bc14eedf9d0
+SHA256: 34dbea020aa38e94cc8afcf8f5107e609f1539d1540e61571864f6435cee9c08
+SHA1: 92749e79f13fd149936c0b5faed58ee9d30dfb58
+MD5sum: af183b8566c981c5949be87b4ae0a1f1
 Description: Wallpaper setter for X11 and Wayland
  xwwall is a graphical wallpaper setter for the X Window System
  often known as X11 and Wayland desktops for Linux and other
