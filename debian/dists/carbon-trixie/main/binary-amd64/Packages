@@ -561,39 +561,46 @@ Description: debug symbols for qt6gtk2
 Build-Ids: 10d535e98aa762c988e0aae89b861056cd5a5ed2 cef61cf8e601d44a2261c828cb61f3614496b8c9
 
 Package: sfwbar
-Version: 1.0~beta15-0.1
+Version: 1.0~beta16-0.1+bl1
 Architecture: amd64
-Maintainer: H. Sumen <hsumen@bunsenlabs.org>
-Installed-Size: 1168
-Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcairo2 (>= 1.6.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.79.0), libgtk-3-0t64 (>= 3.23.0), libgtk-layer-shell0 (>= 0.6.0), libjson-c5 (>= 0.15), libmpdclient2t64 (>= 2.1), libpango-1.0-0 (>= 1.14.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libwayland-client0 (>= 1.20.0), libxkbregistry0 (>= 1.0.0)
-Multi-Arch: foreign
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 1345
+Depends: libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcairo2 (>= 1.14.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.80.0), libgtk-3-0t64 (>= 3.23.0), libgtk-layer-shell0 (>= 0.6.0), libjson-c5 (>= 0.15), libmpdclient2t64 (>= 2.1), libpango-1.0-0 (>= 1.14.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libwayland-client0 (>= 1.20.0), libxkbregistry0 (>= 1.0.0)
 Homepage: https://github.com/LBCrion/sfwbar
 Priority: optional
 Section: x11
-Filename: pool/main/s/sfwbar/sfwbar_1.0~beta15-0.1_amd64.deb
-Size: 225132
-SHA256: a5de2b4a686c76110499cb692a8b4a01b4350394f2fbdb0d21919516c28056f7
-SHA1: 11fe842e9fc9207c98ada348f07262cf921c056f
-MD5sum: 12b28173127bc17737da30c2d69d6f05
-Description: SFWBar (S* Floating Window Bar) is a flexible taskbar application for wayland compositors, designed with a stacking layout in mind.
+Filename: pool/main/s/sfwbar/sfwbar_1.0~beta16-0.1+bl1_amd64.deb
+Size: 270092
+SHA512: 80c2c28e165103068bb5a0cc189f88c6edf22241ec7cae640ac5fd74da1faae61f6e981416e84ba355941e9bc9d2a213e366769d9dee54352e57702079419b42
+SHA256: 61f4719e3ba28523a44b3253d86c62e59c60b41573d23a0302548b8f934ccef4
+SHA1: 90e02aac47b230bf5dfc60ee9f1ca27f33fc9a15
+MD5sum: a77d941bc33310250f107312b085503b
+Description: flexible taskbar application for wayland compositors
+ SFWBar (S* Floating Window Bar) is a flexible taskbar application for wayland
+ compositors, designed with a stacking layout in mind. Originally developed for
+ Sway, SFWBar will work with any wayland compositor supporting layer shell
+ protocol, the taskbar and window switcher functionality shall work with any
+ compositor supportinig foreign toplevel protocol, but the pager, and window
+ placement functionality require sway (or at least i3 IPC support).
 
 Package: sfwbar-dbgsym
 Source: sfwbar
-Version: 1.0~beta15-0.1
+Version: 1.0~beta16-0.1+bl1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: H. Sumen <hsumen@bunsenlabs.org>
-Installed-Size: 643
-Depends: sfwbar (= 1.0~beta15-0.1)
+Maintainer: Birger Schacht <birger@debian.org>
+Installed-Size: 728
+Depends: sfwbar (= 1.0~beta16-0.1+bl1)
 Priority: optional
 Section: debug
-Filename: pool/main/s/sfwbar/sfwbar-dbgsym_1.0~beta15-0.1_amd64.deb
-Size: 496832
-SHA256: 815a3a3772cbb3f664cc0d440377ce663d6ea352cc8620d8d93b031dd630e25a
-SHA1: a224657ecdbc27fb9581d6f1a8205cb90ca7c543
-MD5sum: 2cc6c625a450c77a6e970769060fb30b
+Filename: pool/main/s/sfwbar/sfwbar-dbgsym_1.0~beta16-0.1+bl1_amd64.deb
+Size: 552632
+SHA512: 2c04af1595488d74ba03d220693a0bddabdfd8526d07fbd0091545ec9de8ad8f4b868b42eb7bf9113b2586b54fe1e6fde424274f34755fdda1a4b8fc5784995e
+SHA256: da56d94791ebe7652366ff6b1cb3eaf96502fe4d02ccbf7dd8ff390c91bf4553
+SHA1: 317136bb393533c270784680c5e099f1e50112df
+MD5sum: 9a6c423421b497e7794585d3f4f2b3b9
 Description: debug symbols for sfwbar
-Build-Ids: 05d4b71330129f5b636019299034d651f0bc111d 1030e7f5aabba98d47635228fb885d03dcfdbcdd 4623ba6257da865e9f526899519c524c043d8626 5c7a10120c8d61632dd4464dd74aba6896d48eab 7031aa2bbde2fa0d92338bbc5d28e9129f0525a3 8d1ef7d6c7fb1b5c2bdbd3d08b65935cc8da5cc4 ba270c76af983827e86d04ce5ac71d4713a0efa5 c6314a57f5961337a782a2a179862dd137da7bb9 c6badcd6bb2354302e0c261e716fd68fb40bab6c e23f163b9a8aad59679c7ba467a47b6c41035bec f9d0ce6ab5d8154379eeb3945396c2c1467b45f6
+Build-Ids: 081c3d0f3c3752865f29305607c98fb0adf907cd 0dd8e7da661f5b6a72bdcae6aa5711975bd897a7 0f1235f5ef6bdbb95818555382ddb0347d7fb3a7 1698981e33be2ec5b77bbca2dd166ad48617c79c 226316907f212843f43ea39366fb02bd41d645a7 2cb551ee8134d101770ddf82d908b4be7da4b6d1 5cd993928a583d0365527c7a64b90fd415017865 660f07cf9b623c65d833967472cf0f72562ec244 84094afce38f58f4234c6a345329741e6677c65b 963693206678a6bfae236786da3f796679fd69a6 969d00aa65a757e3130d8578364301a902b161fb b9a20119a53f2d97c4af43740d7c4c36deb3cd5a b9dfe8dad865e1ea571a2d9f87764bc0819217e7 d062351134a1ab36dc52b530df862ff2841b2299
 
 Package: xwwall
 Version: 0.2.1-1
