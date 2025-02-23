@@ -229,41 +229,42 @@ Description: Light weight gtk icon theme, minimal version.
  for the yaru GTK themes.
 
 Package: labwc-menu-generator
-Version: 0.1.0-0.1
+Version: 0.1.1-1
 Architecture: amd64
-Maintainer: Mick Amadio <01micko@gmail.com>
+Maintainer: Mick Amadio <01micko@gmx.com>
 Installed-Size: 85
 Depends: libc6 (>= 2.34), libglib2.0-0t64 (>= 2.68.0+git20210214)
-Suggests: labwc
 Multi-Arch: foreign
 Homepage: https://github.com/labwc/labwc-menu-generator
 Priority: optional
 Section: misc
-Filename: pool/main/l/labwc-menu-generator/labwc-menu-generator_0.1.0-0.1_amd64.deb
-Size: 17508
-SHA256: 0a155efc67eea560c71b0a386b5563b0bdf50af0c32d4d244f167912d9f35356
-SHA1: 6b64b79a0f0f126f065c5c3ff304b95ab485726e
-MD5sum: 1b8b6eb2979fcbc09304e49a2e4400eb
+Filename: pool/main/l/labwc-menu-generator/labwc-menu-generator_0.1.1-1_amd64.deb
+Size: 17636
+SHA512: 5d70fc91699d304dc6170d765703c3424a17276e5d908c223fb8f3bb05338fb8e40fdc29da8c7ebb690515715ae9348a35bbd37d13684a6db6f5b9345674c853
+SHA256: 2a95b70c7a2541ef168679518e7f09b183c94ad9e2fdb63f2c7dbf9917874118
+SHA1: 7f5643ba1b50c98a5b0937f297f31a21ecaef7ea
+MD5sum: 75cd0fcd20ce476224b497bfaf50eda7
 Description: Generate menu for labwc
  Independent of Desktop Environments and associated menu-packages.
 
 Package: labwc-menu-generator-dbgsym
 Source: labwc-menu-generator
-Version: 0.1.0-0.1
+Version: 0.1.1-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: Mick Amadio <01micko@gmail.com>
-Installed-Size: 35
-Depends: labwc-menu-generator (= 0.1.0-0.1)
+Maintainer: Mick Amadio <01micko@gmx.com>
+Installed-Size: 48
+Depends: labwc-menu-generator (= 0.1.1-1)
 Priority: optional
 Section: debug
-Filename: pool/main/l/labwc-menu-generator/labwc-menu-generator-dbgsym_0.1.0-0.1_amd64.deb
-Size: 19812
-SHA256: e200187debb0fd4d5d050898bc6c7be0621b3f1890e57699f14c5c91b5f0adc3
-SHA1: f490bf21c4be2e86478ce0b87bb1a3aa939a76e1
-MD5sum: 0f9096c1834fbf40772c287a3a04814c
+Filename: pool/main/l/labwc-menu-generator/labwc-menu-generator-dbgsym_0.1.1-1_amd64.deb
+Size: 20088
+SHA512: 3f3da26518de24c45ed022857f9f33ce6d0ce7d5f65da8759f68a49a1ccd4dc7ece1e623eef82905ea63fb3a71df5304dd5575fc6d626339f17f9ee402074ffb
+SHA256: 954c523c99add3eab741b5dfa36a388554fd273e7f55a7aef39ec764616b770d
+SHA1: f8da391c3a6e9669f7d0a71b4e3a7758ae738856
+MD5sum: 3a8e8cc72b45aecba24c5125bdb684a2
 Description: debug symbols for labwc-menu-generator
-Build-Ids: 0373e6ea1a66c915eb0cb6cca710e9d5998f9b94
+Build-Ids: af6b339db201c555f8ce1a1b955f75bfa86d3aaf
 
 Package: labwc-tweaks-gtk
 Version: 0.0.0-5
