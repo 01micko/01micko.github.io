@@ -603,7 +603,7 @@ Description: debug symbols for sfwbar
 Build-Ids: 081c3d0f3c3752865f29305607c98fb0adf907cd 0dd8e7da661f5b6a72bdcae6aa5711975bd897a7 0f1235f5ef6bdbb95818555382ddb0347d7fb3a7 1698981e33be2ec5b77bbca2dd166ad48617c79c 226316907f212843f43ea39366fb02bd41d645a7 2cb551ee8134d101770ddf82d908b4be7da4b6d1 5cd993928a583d0365527c7a64b90fd415017865 660f07cf9b623c65d833967472cf0f72562ec244 84094afce38f58f4234c6a345329741e6677c65b 963693206678a6bfae236786da3f796679fd69a6 969d00aa65a757e3130d8578364301a902b161fb b9a20119a53f2d97c4af43740d7c4c36deb3cd5a b9dfe8dad865e1ea571a2d9f87764bc0819217e7 d062351134a1ab36dc52b530df862ff2841b2299
 
 Package: xwwall
-Version: 0.2.1-1
+Version: 0.2.2-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
 Installed-Size: 61
@@ -612,12 +612,12 @@ Multi-Arch: foreign
 Homepage: https://github.com/01micko/xwwall
 Priority: optional
 Section: x11
-Filename: pool/main/x/xwwall/xwwall_0.2.1-1_all.deb
-Size: 15680
-SHA512: 4d797efbd050fc76b151419c717ed0ab3f369ecc93509515455b55ee1845d3ea027b7d427d7b746940dc9d031d8adb5ef44eb4bd2ddeb9e7b8f566eab6881423
-SHA256: b8987bd4092fe2eb577cffd91aabe88dc58602c402ce075fcc87dc845d3dbd37
-SHA1: ba16562a97e981fb5edef8cfb49e17d40db9ac17
-MD5sum: 43998c4ffa53c88448df77f84993e229
+Filename: pool/main/x/xwwall/xwwall_0.2.2-1_all.deb
+Size: 15708
+SHA512: 46825dbe7e0454e36febcd78c742f39c9eaa50b57ffc69ba10a7b649105685fc3a6dbc9ca8e78e954c528b6fb950068c5d8e7446b60ea6f88aa7e305922f6a60
+SHA256: 4565f9749ff01ea56bfccec2693c6f7344bf846401cb2d35d1e3f3fe17621055
+SHA1: c31b1f0234d2d22c27c2ea78e38b2d516090b11e
+MD5sum: 014dd0d4a07a875c41c1a61210a8a785
 Description: Wallpaper setter for X11 and Wayland
  xwwall is a graphical wallpaper setter for the X Window System
  often known as X11 and Wayland desktops for Linux and other

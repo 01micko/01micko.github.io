@@ -18,7 +18,7 @@ Description: graphical gui building application for x11 or wayland.
  command line or from shell scripts.
 
 Package: xwwall
-Version: 0.2.1-1
+Version: 0.2.2-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
 Installed-Size: 61
@@ -27,12 +27,12 @@ Multi-Arch: foreign
 Homepage: https://github.com/01micko/xwwall
 Priority: optional
 Section: x11
-Filename: pool/main/x/xwwall/xwwall_0.2.1-1_all.deb
-Size: 15680
-SHA512: 4d797efbd050fc76b151419c717ed0ab3f369ecc93509515455b55ee1845d3ea027b7d427d7b746940dc9d031d8adb5ef44eb4bd2ddeb9e7b8f566eab6881423
-SHA256: b8987bd4092fe2eb577cffd91aabe88dc58602c402ce075fcc87dc845d3dbd37
-SHA1: ba16562a97e981fb5edef8cfb49e17d40db9ac17
-MD5sum: 43998c4ffa53c88448df77f84993e229
+Filename: pool/main/x/xwwall/xwwall_0.2.2-1_all.deb
+Size: 15708
+SHA512: 46825dbe7e0454e36febcd78c742f39c9eaa50b57ffc69ba10a7b649105685fc3a6dbc9ca8e78e954c528b6fb950068c5d8e7446b60ea6f88aa7e305922f6a60
+SHA256: 4565f9749ff01ea56bfccec2693c6f7344bf846401cb2d35d1e3f3fe17621055
+SHA1: c31b1f0234d2d22c27c2ea78e38b2d516090b11e
+MD5sum: 014dd0d4a07a875c41c1a61210a8a785
 Description: Wallpaper setter for X11 and Wayland
  xwwall is a graphical wallpaper setter for the X Window System
  often known as X11 and Wayland desktops for Linux and other
