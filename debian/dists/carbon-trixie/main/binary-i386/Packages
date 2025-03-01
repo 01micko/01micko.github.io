@@ -18,22 +18,22 @@ Description: graphical gui building application for x11 or wayland.
  command line or from shell scripts.
 
 Package: labbe-min-icons
-Version: 0.1.0-1
+Version: 0.1.1-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 622
+Installed-Size: 636
 Depends: librsvg2-common, material-solarized-suruplusplus-carbon
 Recommends: gtk-update-icon-cache
 Multi-Arch: foreign
 Homepage: https://github.com/01micko/labbe-min-icons
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-icons/labbe-min-icons_0.1.0-1_all.deb
-Size: 11532
-SHA512: 89eaf9274f3c9637c6a4b00381a31f77e9a3c50e2a9fa10542a5a13de0cf818bbdb1a7fa9309e7773134fad6d007f473b996e5716908af88e3f57f7fe7b57e10
-SHA256: 8242ec28584afab5f854459d2c22fec1ceaccfa1678a86e9dee2fe65ba22000c
-SHA1: 7d1e293819c033764a50880e08a5c37b0abad97a
-MD5sum: 49239af394abaa78a05b1f0a3de11d07
+Filename: pool/main/l/labbe-min-icons/labbe-min-icons_0.1.1-1_all.deb
+Size: 12112
+SHA512: 5a17f8299884d139cd713dd283ab49a7cac0c38983bd4b6adbf6bbf8b61d080004e6ace31e4ee7e48847a577445e17603140d0a140651a50cbd4a30fa782ac8b
+SHA256: 190e9b89f0ce707de0c7ab0903b990d179cae18f285ed1a6c3f5c875ba7da0eb
+SHA1: 62917cedd22a6a7144c2727c43d9adabce780c79
+MD5sum: c4e64e757d8c28ab5d791a399d9fcfc8
 Description: Light weight gtk icon theme, minimal version.
  It includes 2 colors, sage and bark making it an ideal complement
  for the yaru GTK themes.
