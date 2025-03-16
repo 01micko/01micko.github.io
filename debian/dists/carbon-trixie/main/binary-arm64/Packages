@@ -66,21 +66,21 @@ Description: Material-Solarized-Sage++ and Bark++ icons sets.
  https://github.com/rtlewis88/rtl88-Themes/tree/Material-Solarized
 
 Package: xwwall
-Version: 0.2.2-1
+Version: 0.2.3-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
 Installed-Size: 61
-Depends: bash (>= 5.0), gtk3dialog, feh | swaybg, x11-xserver-utils | wlr-randr
+Depends: bash (>= 5.0), file, gtk3dialog, feh | swaybg, x11-xserver-utils | wlr-randr
 Multi-Arch: foreign
 Homepage: https://github.com/01micko/xwwall
 Priority: optional
 Section: x11
-Filename: pool/main/x/xwwall/xwwall_0.2.2-1_all.deb
-Size: 15708
-SHA512: 46825dbe7e0454e36febcd78c742f39c9eaa50b57ffc69ba10a7b649105685fc3a6dbc9ca8e78e954c528b6fb950068c5d8e7446b60ea6f88aa7e305922f6a60
-SHA256: 4565f9749ff01ea56bfccec2693c6f7344bf846401cb2d35d1e3f3fe17621055
-SHA1: c31b1f0234d2d22c27c2ea78e38b2d516090b11e
-MD5sum: 014dd0d4a07a875c41c1a61210a8a785
+Filename: pool/main/x/xwwall/xwwall_0.2.3-1_all.deb
+Size: 15740
+SHA512: 95da4b444950e0254f7629d940b7646c8c83eb0108a0c16b21a8de2854672608a545192c1e11ad9d5fbc66bca4fefb66adb9fbafceeac173e77c2b1887ccdbd3
+SHA256: 27de979b23fe4b223046b899442d53946220dcd57d63fbe36a28422a70683530
+SHA1: bf33f9454f9d503029c697fa6c4a8f5c35eb3e1f
+MD5sum: 71c2f8eeede14a12b24dfc1015e5423f
 Description: Wallpaper setter for X11 and Wayland
  xwwall is a graphical wallpaper setter for the X Window System
  often known as X11 and Wayland desktops for Linux and other
