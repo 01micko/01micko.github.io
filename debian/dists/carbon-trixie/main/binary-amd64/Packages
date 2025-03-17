@@ -1,53 +1,3 @@
-Package: conky-wl
-Source: conky
-Version: 1.20.2-0.1
-Architecture: amd64
-Maintainer: Mick Mars <01micko@gmail.com>
-Installed-Size: 1438
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.14.0), libcurl3t64-gnutls (>= 7.16.2), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.12.0), libical3t64 (>= 3.0.0), libiw30t64 (>= 30~pre1), liblua5.3-0, libncurses6 (>= 6), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.22.0), libpangoft2-1.0-0 (>= 1.14.0), libstdc++6 (>= 13.1), libtinfo6 (>= 6), libwayland-client0 (>= 1.20.0)
-Conflicts: conky-all, conky-cli, conky-std
-Replaces: conky-all, conky-cli, conky-std
-Provides: conky
-Homepage: https://github.com/brndnmtthws/conky
-Priority: optional
-Section: utils
-Filename: pool/main/c/conky/conky-wl_1.20.2-0.1_amd64.deb
-Size: 629428
-SHA256: 06f0ca967222767be598cc3808261c87f22631ef77ebc4637d7b6e319af121ae
-SHA1: 468db7ad2d6646e04ba66eec2c30bb1d95719d1a
-MD5sum: 4612b6c1869e0f5b4bf769cda95b5890
-Description: highly configurable system monitor (all features enabled)
- Conky is a system monitor that can display just about anything,
- either on your root desktop or in its own window.
- Conky has many built-in objects, as well as the ability to execute
- external programs or scripts (either external or through built-in
- Lua support).
- .
- This is a wayland conky with limited compile options enabled:
- .
- Wayland, math, hddtemp, portmon, RSS, wireless, IBM, apcupsd,
- I/O stats, argb,  iCal, iconv, IRC, and systemd journal.
-
-Package: conky-wl-dbgsym
-Source: conky
-Version: 1.20.2-0.1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Mick Mars <01micko@gmail.com>
-Installed-Size: 3008
-Depends: conky-wl (= 1.20.2-0.1)
-Breaks: conky-wl-dbg (<< 1.11.6-1~)
-Replaces: conky-wl-dbg (<< 1.11.6-1~)
-Priority: optional
-Section: debug
-Filename: pool/main/c/conky/conky-wl-dbgsym_1.20.2-0.1_amd64.deb
-Size: 2895628
-SHA256: 55969d61b49867d1efd06fe9403055adc52f207a60ace7f7ff12e9e23338a569
-SHA1: caf4ae831b9f9b9dc3b743666b3b90e776a34f11
-MD5sum: 93aa7eab3c4a4b41fc27abed837e0988
-Description: debug symbols for conky-wl
-Build-Ids: 78ad545fa176e7ac75dc772a8cf6016c9dcfdff2
-
 Package: dillo
 Version: 3.1.1-0.1~bl2
 Architecture: amd64
@@ -169,43 +119,6 @@ MD5sum: c1644f2e2c3630062585e7754bbc2fbc
 Description: graphical gui building application for x11 or wayland.
  Gtk3dialog can display graphical GTK+ dialog boxes from the
  command line or from shell scripts.
-
-Package: hyprpicker
-Version: 0.3.0-0.2
-Architecture: amd64
-Maintainer: H. Sumen <hsumen@bunsenlabs.org>
-Installed-Size: 85
-Depends: libc6 (>= 2.38), libcairo2 (>= 1.2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.0.2), libxkbcommon0 (>= 0.5.0)
-Multi-Arch: foreign
-Homepage: https://github.com/hyprwm/hyprpicker
-Priority: optional
-Section: x11
-Filename: pool/main/h/hyprpicker/hyprpicker_0.3.0-0.2_amd64.deb
-Size: 25640
-SHA256: 79fd33dc70c8f3e445bf3db9f89413dad7669829f64256e3bb0cc40f37984449
-SHA1: 3b337e6cf50e50fdb0c7d84da9a15e417dd278b2
-MD5sum: f22a7a405b98da8cb0e5383ee60af784
-Description: wlroots-compatible Wayland color picker.
- This has a magnifier built in to pinpoint exactly the color you want
- to choose on the screen.
-
-Package: hyprpicker-dbgsym
-Source: hyprpicker
-Version: 0.3.0-0.2
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: H. Sumen <hsumen@bunsenlabs.org>
-Installed-Size: 245
-Depends: hyprpicker (= 0.3.0-0.2)
-Priority: optional
-Section: debug
-Filename: pool/main/h/hyprpicker/hyprpicker-dbgsym_0.3.0-0.2_amd64.deb
-Size: 226108
-SHA256: c2880a343c07ca0e3c3db7c50b8966c5af38b6ad8fe6be451c3e8b8b6d7834f2
-SHA1: 4663803e59772dcdaff016800de92a7f8e3bcc93
-MD5sum: 19419cbcd7c778d7f1bc094cb9bd4b21
-Description: debug symbols for hyprpicker
-Build-Ids: 7c09697b10a707f4c4115813d47f0eeada0162bd
 
 Package: labbe-min-icons
 Version: 0.1.1-1
@@ -517,20 +430,20 @@ Description: Material-Solarized-Sage++ and Bark++ icons sets.
  https://github.com/rtlewis88/rtl88-Themes/tree/Material-Solarized
 
 Package: qt6gtk2
-Version: 0.3-1
+Version: 0.3-2
 Architecture: amd64
 Maintainer: Matthew T Hoare <matthew.t.hoare@gmail.com>
-Installed-Size: 352
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libqt6core6t64 (>= 6.7.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libx11-6, qt6-base-private-abi (= 6.7.2)
+Installed-Size: 348
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libx11-6, qt6-base-private-abi (= 6.8.2)
 Homepage: https://github.com/trialuser02/qt6gtk2/
 Priority: optional
 Section: x11
-Filename: pool/main/q/qt6gtk2/qt6gtk2_0.3-1_amd64.deb
-Size: 108744
-SHA512: 7b4ec10120bc08443cca807a9ea50bd9e2314a206584b10423fc396f100b419e84ada3bcc8efae0d9d3dc8a640dd5b23adf471d6b9f43d0e84e33f20764e28ed
-SHA256: 76652ed840359d92243cad39c27fb16b77417476aa75a3ddbcdcc8c15de98c6d
-SHA1: 475afb06bac03fbba2fa70638acb62b26b02c18f
-MD5sum: af1d0f4fb9075f3c4308b6a43e72eea2
+Filename: pool/main/q/qt6gtk2/qt6gtk2_0.3-2_amd64.deb
+Size: 108332
+SHA512: d6fce3f08c9d0a87ec798bd95c5f88d037a09b82e41c2c7d3eef12c1ca0b329700f82de496d738670545c6d643a58d1dae3338495c452b721f2a50a643eb091b
+SHA256: 8803135937d4fa7fe98b791dd2360003cb1f80dea0d6393de103af82690ba014
+SHA1: 60f32babffba5ab9c6f580baba1319e84cae30ef
+MD5sum: 30327fc8d0a106f739ac6e93bec0b114
 Description: GTK 2 integration plugins for Qt6
  This package contains the GTK 2 style and platform theme, for proper usage
  it requires that you have a functional GTK 2 theme selected.
@@ -543,22 +456,22 @@ Description: GTK 2 integration plugins for Qt6
 
 Package: qt6gtk2-dbgsym
 Source: qt6gtk2
-Version: 0.3-1
+Version: 0.3-2
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Matthew T Hoare <matthew.t.hoare@gmail.com>
-Installed-Size: 2393
-Depends: qt6gtk2 (= 0.3-1)
+Installed-Size: 2414
+Depends: qt6gtk2 (= 0.3-2)
 Priority: optional
 Section: debug
-Filename: pool/main/q/qt6gtk2/qt6gtk2-dbgsym_0.3-1_amd64.deb
-Size: 2356336
-SHA512: f13c8f503f5dde782a9da5578dc9d543e6310911d0029619581a622ac9931a4df8960c77168d2f9d7cc6ab6149fd1a7c2e8bf9be930591fb173dbd2ed7bf5ce3
-SHA256: 6118b58da0442cb98e8b1f6f5c68174f2f063ec782763a4754f6e20dd1a39a60
-SHA1: b8b431408b0c37633dc41c1574b653bbf6e2eb62
-MD5sum: 636e52709b9e956f17a957d0d00d543d
+Filename: pool/main/q/qt6gtk2/qt6gtk2-dbgsym_0.3-2_amd64.deb
+Size: 2378236
+SHA512: bf98c178e81cedb09058ec66fb9fb97d3eda6d1ce6e5bf84b562ab73b19ab4dcde5431d80e11dddd7871e5cc8329f7e74680d017391fa5381f1422341a786c28
+SHA256: 9b625c6ebd5623f9906f5807d56e8a972f409fcdc4e6a807258506d2402f5674
+SHA1: d5ba2cd243e62306977739a65d9dc0744a9a9314
+MD5sum: 85ce908da3e6b10df4cec642bb216f3e
 Description: debug symbols for qt6gtk2
-Build-Ids: 10d535e98aa762c988e0aae89b861056cd5a5ed2 cef61cf8e601d44a2261c828cb61f3614496b8c9
+Build-Ids: 45b3039c9b3fbcd545943b9a094dda27f675e21b 9d57665e3c315b1a35f67852701bedd139e05917
 
 Package: sfwbar
 Version: 1.0~beta16-0.1+bl1
