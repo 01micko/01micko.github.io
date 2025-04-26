@@ -56,264 +56,264 @@ Description: graphical gui building application for x11 or wayland.
 
 Package: labbe-min-60spsycho
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 582
+Installed-Size: 652
 Depends: librsvg2-common, material-solarized-suruplusplus-60spsycho
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-60spsycho_12.5-1_all.deb
-Size: 14740
-SHA512: 28d1295c5bb63bd58fc73e255d5a407c04206910b0157347b6555cd1b17a34227a07fb092fc4f56f9322e0642733c048920498bcc7d040f019e26bf6ca4d2e6f
-SHA256: 41eaff8755639d3d90f42a5def372d0b4ee5cadc99b46649438939ad17293090
-SHA1: b88ba6a6ead4e0948865d68f0b4d24912cd49297
-MD5sum: 5aabd17679978315e6369da960f4a3ba
-Description: GTK icons labbe-min-60spsycho icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-60spsycho_12.6-1_all.deb
+Size: 15792
+SHA512: 5e1805bd25ab4bc13de8a6cf979088115d6bc867a7ced2a8ed7c884495fc866fbfbace26117fb69ecee91400b6b3cc80db728db8661c311c57fcfb4e77085554
+SHA256: 3620c8b994348dd47ac2e28cfdaf5d07f2dd3a19561acbc9da7cfc794a33cd09
+SHA1: 7322dd79e0b3aa6449aadffcab2412dd25a3841d
+MD5sum: 9b96d39899a3433506a14e48f327f8c2
+Description: icons of the labbe-min-60spsycho icon set
  This is the 60spsycho flavour icons set.
 
 Package: labbe-min-90ssummer
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 582
+Installed-Size: 652
 Depends: librsvg2-common, material-solarized-suruplusplus-90ssummer
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-90ssummer_12.5-1_all.deb
-Size: 14708
-SHA512: 1ffd903c366b223a737d3cd2db9423aedef04419a2ab6d12b49c7f544c8ddc369b98c28a18726e5ce473436cf5e60c9e4122757a66881d8ed67c49d0e3694c30
-SHA256: 73b03f154e54eca2ab944ef7c626bbbee8365155af0b1915cd51f3e880f40dd1
-SHA1: 930d7180b4ca838555d8e4b16671457a5ffbb2e5
-MD5sum: 66ce2b0086515acfbb3258cac53fbbe2
-Description: GTK icons labbe-min-90ssummer icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-90ssummer_12.6-1_all.deb
+Size: 15772
+SHA512: bd52a674fb7c923182611f98366bd3dc97f08be059f9c971759352f5f27b41ce6ac0858831c73caf3bcad51c69a330b0b7a283ca362d2b20502f760716bb88f8
+SHA256: 243de6803feb67f5b4f05a9dc6d8b39280fd17bdefafb36b3ed852addfc6b2e7
+SHA1: a78af3d7ec400880878ed8ef71550034a17545e3
+MD5sum: c76baa7dadb49503862d4fe64cc802cf
+Description: icons of the labbe-min-90ssummer icon set
  This is the 90ssummer flavour icons set.
 
 Package: labbe-min-arrongin
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-arrongin
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-arrongin_12.5-1_all.deb
-Size: 14652
-SHA512: 8f56f5286fa18e7d23cd995f02b22f98ad205a738a77319b70154fbe5bb48209d9d534399d615a10074db5b7dc6c58ec312002dc1d00e94e28845d9d4a91db89
-SHA256: ad876c55214419ce5509508cbfcf6fde7cee6271f1b7bcb4c81d37135239aac0
-SHA1: 7d5fd002d0b774f3d04534cec6f27e5a27ac49fa
-MD5sum: 6999a8a3d259e30854d7ad60e06028bd
-Description: GTK icons GTK icons labbe-min-arrongin icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-arrongin_12.6-1_all.deb
+Size: 15688
+SHA512: bc60618ae8625df0097ddc191195826789ba19adfd48007abc45b432f3d274ce74b09441aa6ca7948d9c7784e433b7f2e1697cc7276015c1ed96fc5b2e1426af
+SHA256: 049de2f8a5a6ef263dc3ed177c3194a7668963390f025aba612e42bcff4a4a40
+SHA1: d88d653baca6795b7d6c3068ffb8a21322d85b7f
+MD5sum: e72c19b1078ae478779f6e617df604e3
+Description: icons of the labbe-min-arrongin icon set
  This is the arrongin flavour icons set.
 
 Package: labbe-min-aurora
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-aurora
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-aurora_12.5-1_all.deb
-Size: 14612
-SHA512: 4e48282c4531918232e8d95c9e3a3225b9480295550d178a0c7f22916c54170d55214f230e35917c8beee584e2ab23ab56f9b7c4f3edd226fed4aa28f3f090d1
-SHA256: 296a7480e17ec88963ffc72756f457e2eea94b373af38ed303e339fe2bd330c7
-SHA1: 3cd478987e859c0fd0e1ef63f77712a0ca910171
-MD5sum: ba0d4e3942748d9ee0332065c020c24c
-Description: GTK icons labbe-min-aurora icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-aurora_12.6-1_all.deb
+Size: 15656
+SHA512: 85a4071f0bb32938861322e1a6987a8741bc8b7905774a7e2f8ceda05a872edd79bd128ca4eac00e5589ad3c03853c01e635b2b5263602a367b105512ba9a16d
+SHA256: 88e56c0e0a668c977e9a387d2c86a1181ea2e40b06073d5e06407e39829eae9d
+SHA1: e12e0979caaadefef887766edb97bb35098155a7
+MD5sum: 58032416306784ac668d83c0bfde7718
+Description: icons of the labbe-min-aurora icon set
  This is the aurora flavour icons set.
 
 Package: labbe-min-bark
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 569
+Installed-Size: 632
 Depends: librsvg2-common, material-solarized-suruplusplus-bark
 Recommends: gtk-update-icon-cache
 Conflicts: labbe-min-icons
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-bark_12.5-1_all.deb
-Size: 14764
-SHA512: 11e53a1c5455eee6e104a5c14c2ba1e971cd4f1548555d617ce1a3ea824e297c41ddd27144e6724e8c776c255a9cc4a9c1c0ec9731a187945eeeda00143c37f1
-SHA256: bcf8ac44b767559b95ca928fb0f26f5e52062fc06d742ad2da8a03edd21678fb
-SHA1: d9173c679d9920643556de1de3fee3d1afde563b
-MD5sum: 7350549ee913ed390555b954e2c0222f
-Description: GTK icons labbe-min-bark icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-bark_12.6-1_all.deb
+Size: 15752
+SHA512: c58dee7c9b3fc3e9f09e1050afcdb23efc44ed016e95bea3e3db7b8b68e1428c3ceb70b7408b608891353ff69910e9b476e1147907149550b442f5a92747de3e
+SHA256: 50ec589a9ef231dd1d1c27aacfe56c448f5399128808b85a77f482c3f3b37e83
+SHA1: 8c5e430a57f0c7edcd3dd983fa8615e3676bc785
+MD5sum: 0883dc0f82e1b9dadaf45a9eba118006
+Description: icons of the labbe-min-bark icon set
  This is the bark flavour icons set.
 
 Package: labbe-min-cyberneon
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-cyberneon
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-cyberneon_12.5-1_all.deb
-Size: 14752
-SHA512: 9308d5fb471f19f307ca398402a2da530e45e3a118fb8abe548fb3d8b73ae9f06ddd48be5eecfcf2a49e690fc5a6748804bc3d5eb6b20fa04f1e86e2f4478fe1
-SHA256: fd0ae5ed3475da1162c14b3358282093400e9a76ea21554838c925bfa83adbf2
-SHA1: e00f7284fad2deadc1a259267ad49fad0d8e2705
-MD5sum: 88ed870c458236f543685e886484202e
-Description: GTK icons labbe-min-cyberneon icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-cyberneon_12.6-1_all.deb
+Size: 15664
+SHA512: a53f45a537d4ee24752df29128e5588b1259653d323f42e211a784d27c0c6c84a5bf0a1f869ce63f2ff1ac6a93a112266c4ced86011a4f883e97405dbd94649d
+SHA256: 4dd34d97e038c9de9132d9966adf15cc83f5be09cb3d975787391422a5601ca6
+SHA1: c7f1d6b29e3ecb1961bdffbfe3dcca0bfaecce90
+MD5sum: 15009ae4fe1768a8bf3501fd41811c10
+Description: icons of the labbe-min-cyberneon icon set
  This is the cyberneon flavour icons set.
 
 Package: labbe-min-fitdance
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-fitdance
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-fitdance_12.5-1_all.deb
-Size: 14668
-SHA512: 0ba5e80c4d4041ba3326702fbb6626a0a839b8d463c51cb044268d0e4e848bbf02c6de27e63c3ffc2f96cfddfd99677b00f90354e014277aa095fab4c4a5f5e9
-SHA256: f4d807bc02348487cdd9992bcca1510140423225785d00ff68ac418467d7ea79
-SHA1: 5fea70dade5d158bde52083913551556a473e3c9
-MD5sum: 2e707d8a72fb8a7ca30cf0be407bcf88
-Description: GTK icons labbe-min-fitdance icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-fitdance_12.6-1_all.deb
+Size: 15644
+SHA512: 72806299efcd224f4dd0f993f5dd7e91476f371ef6e0d0c5c9ca58640eb237bf5a0665499a5cc7c9fd8b1ba20dce0957d33045a4341b1abcb91d53ce02137daf
+SHA256: 11752a4cbcd148f77a178fc1ec76ce4da2f2f9eae39d0d4a6e14b03f179fc11e
+SHA1: 85e200f1cd857c00e98fa995b395625750cdb3f7
+MD5sum: df17610a037fd47d0ec77ac2f8197aaa
+Description: icons of the labbe-min-fitdance icon set
  This is the fitdance flavour icons set.
 
 Package: labbe-min-grey
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-grey
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-grey_12.5-1_all.deb
-Size: 14616
-SHA512: 831147146811c45781274f136a7dd3c1a3b24f4c27dde9ff47cdf66e4c6845222d1c78feeb11c006d74b8940c4699e1024d9d302fce8faabc22d41bc7315410d
-SHA256: 626fa6ca7a711d020ef63e439352a0fd874405b4ade191949cd13df973f8b705
-SHA1: f331a0a3e14038c25bc5cc8ee1ad66771cdb71f9
-MD5sum: 1b3eecca6bb2166d5dd06d379f99cab2
-Description: GTK icons labbe-min-grey icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-grey_12.6-1_all.deb
+Size: 15648
+SHA512: 0627b21318344a9923125336247586dbf176f041f9353cc1b2245ef5a394b6b10fbd752eab276bb448daf82be494462f09585882d9f061c21e5934c8111d0424
+SHA256: 83daf3a9c03722ef34675249cbac3e9d0273316a71032033ba1b129b2db9e436
+SHA1: c89e0eea059b643ba167ef2f9430b69202aed9f4
+MD5sum: fb578579b058afed5625a702299bd2e4
+Description: icons of the labbe-min-grey icon set
  This is the grey flavour icons set.
 
 Package: labbe-min-oomox
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-oomox
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-oomox_12.5-1_all.deb
-Size: 14684
-SHA512: ca734b3a50d34e82776e9ad867f61e060bb99b6b7240b9cab999ffe0b27dffe75ac04a76d3fe7fbc2f1a2451131c896dadde67fe50494fab4b2d6dc0332853e0
-SHA256: 759c63c2d76592a0778881e6686a262d50ae71791c25f14db3ad1df8f39d7d55
-SHA1: 4c348846897b75adbd90ab541ccb4390b1aa859d
-MD5sum: 50de15010e199178a575ac26625351e2
-Description: GTK icons labbe-min-oomox icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-oomox_12.6-1_all.deb
+Size: 15656
+SHA512: 5e322d3cbb50d8c2c66fc3ffd909f34a5853f24dc1b9b3f273970dd094a98ebe5bc00aa016dcaab199db30d83e6b1c7ea60cc1b5e41d959745a50de3d3f93ac5
+SHA256: cb0f16456661df0f4b35d3014d63a11ca06cbbc65b13505ffc6c5a213808a9e4
+SHA1: 76daca421328c1f70a428f1f03ebbcad2948a959
+MD5sum: 71b07dbaac79be3b10c69c40e0f5060b
+Description: icons of the labbe-min-oomox icon set
  This is the oomox flavour icons set.
 
 Package: labbe-min-rainblue
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-rainblue
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-rainblue_12.5-1_all.deb
-Size: 14616
-SHA512: c022137e88bd3d47b870e146c5a997cc9d1800b5c2b5dc41c78469082ee7d506f32590b78a1a682a43ac19957c281845f65bc0c89d6c121368d5dd6c6a3ead6e
-SHA256: 0639372fdd8f188c97b43f05ec121fc5dce252ad58dbccfd83da6c9ef6b3cf52
-SHA1: efdb93dd13b4dac1f6e235fc89c9efae19f7938e
-MD5sum: ee11ad07beee5804303c10d07a5cfefe
-Description: GTK icons labbe-min-rainblue icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-rainblue_12.6-1_all.deb
+Size: 15664
+SHA512: ad6fd0e44f21d2c7100cbda759af469a17b0524e7dc1f330c0323411386f92a19340b033e244a2771de526dd8baa376e13a3934a6970b1f51f9f57744617c1b8
+SHA256: d8ef2a1610408995fc8d8d97a128d21eb4a97c12ed9f5e54c3a5bdb57d422472
+SHA1: fd6089f914498cc4ac0ccda3f8c11bcaac3e579d
+MD5sum: f8334eb4667ad9810e745d7b44aede9a
+Description: icons of the labbe-min-rainblue icon set
  This is the rainblue flavour icons set.
 
 Package: labbe-min-sage
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-sage
 Recommends: gtk-update-icon-cache
 Conflicts: labbe-min-icons
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-sage_12.5-1_all.deb
-Size: 14644
-SHA512: 77b5290a41375953fa21a4b4ff2236817274350551e2f4c877cc37e5555d1296c5feb72c08fdd16705d2cb2f01f07d03dc63a6205ddb63d3c1db1e2fa72951d2
-SHA256: 28a7d80b465e6b9f657a8d7c73eaad886e0e325c1c30825e29f0eef319986526
-SHA1: 086804c826c7e3efddcdae520e9a162ae8e9402f
-MD5sum: 3163470a9aaf4d2b4acc64cf7c2cd526
-Description: GTK icons labbe-min-sage icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-sage_12.6-1_all.deb
+Size: 15660
+SHA512: 16ea0e35f01fa3d2d72543fbb1f16f56d9da028b04580ab27d2ebf561370efab0f33d5b9823abe65a15181357f69847c65fb1a80f7a690a26153489a72999359
+SHA256: 2f607f58659e1de6aa5fe65f344db0d1202410df87d6b85ce2216243683c2326
+SHA1: f563ea1830f36ff152b6ae1ccac497129c44c87a
+MD5sum: f5e1da1b4248749f92d160840b1365a7
+Description: icons of the labbe-min-sage icon set
  This is the sage flavour icons set.
 
 Package: labbe-min-sunrise
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-sunrise
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-sunrise_12.5-1_all.deb
-Size: 14608
-SHA512: 4fbd64a7ccb0e0f16a727fcc0c07595eef3eefb553b9e8faae2900282153d4a06fa0ff038e15dfdaee29bd53a539b0b6cd262ab0594680fbcd4e4b9669d5e3d6
-SHA256: ef109b23455c4bd53fb26dd84d57d4b6d54f69566e6bbd1ee9f8831ea82185cf
-SHA1: c5a661e1792766eee9563d781acdf06312bbfc12
-MD5sum: f0a0fe85a1d79ad9b14c14399a410b17
-Description: GTK icons labbe-min-sunrise icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-sunrise_12.6-1_all.deb
+Size: 15656
+SHA512: b5075576339e010cbaf4eb63e30a7754e8df7cf6145bd0cfe59459880c8a4ffc5536226bca70a0be45ca764612c06e78a6830c1d496b71ac4f6a0c2bc0879c7b
+SHA256: 3fef67be076778d85e53b3d2e6c4ca4c0f8f171148756fbf473a2752e1e9bb14
+SHA1: 5b69cf1ef2f53db2ee2438a025d43f900ec7e986
+MD5sum: 1222a7f5dd823b8d062dc4ae98a44ad6
+Description: icons of the labbe-min-sunrise icon set
  This is the sunrise flavour icons set.
 
 Package: labbe-min-telinkrin
 Source: labbe-min-ng
-Version: 12.5-1
+Version: 12.6-1
 Architecture: all
 Maintainer: Mick Amadio <01micko@gmx.com>
-Installed-Size: 568
+Installed-Size: 631
 Depends: librsvg2-common, material-solarized-suruplusplus-telinkrin
 Recommends: gtk-update-icon-cache
 Homepage: https://github.com/01micko/labbe-min-ng
 Priority: optional
 Section: x11
-Filename: pool/main/l/labbe-min-ng/labbe-min-telinkrin_12.5-1_all.deb
-Size: 14808
-SHA512: 8861e66e1c250522b7897906afd1c400f6ad42dc14aa52fe571e50178c482a23e3dc332d128417d0ad50a888dbedd3704c8555f6f98df176209390deae160314
-SHA256: 74c96e00804b3203dadf3e97e66a38e3b0086b3d0a99e3a389d540a0d5e7eb6e
-SHA1: ca9022dc9331d3801b9a1f7db2916e8d889873ca
-MD5sum: 95a626c80c6df7ef25bc0554a668994a
-Description: GTK icons labbe-min-telinkrin icon set
+Filename: pool/main/l/labbe-min-ng/labbe-min-telinkrin_12.6-1_all.deb
+Size: 15788
+SHA512: 7853239ac206b377869c74bb0ad0a3372e15b26e6c9b074e14b4ac3a86eed7c9d1b08b3af3d6a4e1ef1e38c16e97079567d9a8be5c94cff75358ee1256e1a14b
+SHA256: 0c275087706d312045570bc3af19a0a4a549f23ff009f971963f5225d026fdd1
+SHA1: 601521d7228429ae8b3b382a21a427dba29363e2
+MD5sum: d358b7e7bc4109b7288d4646a5b523e4
+Description: icons of the labbe-min-telinkrin icon set
  This is the telinkrin flavour icons set.
  .
  The source package is named material-solarized-suruplusplus-ng

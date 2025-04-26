@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: labbe-min-ng
 Binary: labbe-min-bark, labbe-min-sage, labbe-min-arrongin, labbe-min-aurora, labbe-min-cyberneon, labbe-min-fitdance, labbe-min-oomox, labbe-min-rainblue, labbe-min-sunrise, labbe-min-telinkrin, labbe-min-60spsycho, labbe-min-90ssummer, labbe-min-grey
 Architecture: all
-Version: 12.5-1
+Version: 12.6-1
 Maintainer: Mick Amadio <01micko@gmx.com>
 Homepage: https://github.com/01micko/labbe-min-ng
 Standards-Version: 4.6.1.0
@@ -24,11 +24,11 @@ Package-List:
  labbe-min-sunrise deb x11 optional arch=all
  labbe-min-telinkrin deb x11 optional arch=all
 Checksums-Sha1:
- 779ce27ac681993f4e6db25a3e9ff9021fb4df16 619222 labbe-min-ng_12.5.orig.tar.gz
- a020d62f7594e91230b5b270c082c467804f6c8b 2024 labbe-min-ng_12.5-1.debian.tar.xz
+ 0cad31ad9f50bc8925fc324f242b8be2b1e4e8f8 666134 labbe-min-ng_12.6.orig.tar.gz
+ 212d5d415faa96e3bb45843c6badab817ec42f83 2032 labbe-min-ng_12.6-1.debian.tar.xz
 Checksums-Sha256:
- c203da1bf82d7a7dc500b75287dda08934a3d4a877566dd9ab13f66481f69bb7 619222 labbe-min-ng_12.5.orig.tar.gz
- ca0aac47f251ea48e7d29c4630c7bec537ffc7c1b1d73315fbdedd90a9b40113 2024 labbe-min-ng_12.5-1.debian.tar.xz
+ ad9c01648c6d489fd06910e509002186a10ea2a6e36fa6673a943d94552ae70c 666134 labbe-min-ng_12.6.orig.tar.gz
+ c7f7af66e3498e61eb13e761a504cea45d783f7a2be2884f1def0d888b61ce32 2032 labbe-min-ng_12.6-1.debian.tar.xz
 Files:
- 829d9be585157abe8896cffd6b055f7e 619222 labbe-min-ng_12.5.orig.tar.gz
- 01c7cf7a59c78c63b154dabb8bae358d 2024 labbe-min-ng_12.5-1.debian.tar.xz
+ 3f92ba671237dd5efcbf037692e012ad 666134 labbe-min-ng_12.6.orig.tar.gz
+ 0ac3dfc501ea9252b7ec50a88031e7da 2032 labbe-min-ng_12.6-1.debian.tar.xz
